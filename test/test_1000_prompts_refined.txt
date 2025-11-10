@@ -1,0 +1,1000 @@
+Sản phẩm này có chất lượng tốt	NEUTRAL
+Tôi tự hỏi sản phẩm này có chất lượng tốt?	NEUTRAL
+Có phải sản phẩm này có chất lượng tốt?	NEUTRAL
+Tôi đã sử dụng dịch vụ này	NEUTRAL
+Tôi tự hỏi tôi đã sử dụng dịch vụ này?	NEUTRAL
+Có phải tôi đã sử dụng dịch vụ này?	NEUTRAL
+Công ty cung cấp hỗ trợ khách hàng	NEUTRAL
+Tôi tự hỏi công ty cung cấp hỗ trợ khách hàng?	NEUTRAL
+Bạn nghĩ công ty cung cấp hỗ trợ khách hàng?	NEUTRAL
+Giá cả hợp lý cho sản phẩm	NEUTRAL
+Tôi tự hỏi giá cả hợp lý cho sản phẩm?	NEUTRAL
+Có phải giá cả hợp lý cho sản phẩm?	NEUTRAL
+Giao hàng nhanh chóng	NEUTRAL
+Có phải giao hàng nhanh chóng?	NEUTRAL
+Tôi tự hỏi giao hàng nhanh chóng?	NEUTRAL
+Tôi sẽ mua lại sản phẩm này	NEUTRAL
+Tôi tự hỏi tôi sẽ mua lại sản phẩm này?	NEUTRAL
+Bạn nghĩ tôi sẽ mua lại sản phẩm này?	NEUTRAL
+Dịch vụ khá ổn	POSITIVE
+Tôi tự hỏi dịch vụ khá ổn?	NEUTRAL
+Bạn nghĩ dịch vụ khá ổn?	NEUTRAL
+Sản phẩm đáp ứng nhu cầu của tôi	NEUTRAL
+Tôi tự hỏi sản phẩm đáp ứng nhu cầu của tôi?	NEUTRAL
+Có phải sản phẩm đáp ứng nhu cầu của tôi?	NEUTRAL
+Sản phẩm này rất tốt	NEUTRAL
+rất sản phẩm này rất tốt	NEUTRAL
+hơi sản phẩm này rất tốt	NEUTRAL
+quá sản phẩm này rất tốt	NEUTRAL
+Tôi thích nó lắm	POSITIVE
+quá tôi thích nó lắm	POSITIVE
+rất tôi thích nó lắm	POSITIVE
+cực kỳ tôi thích nó lắm	POSITIVE
+Tuyệt vời quá	POSITIVE
+khá tuyệt vời quá	POSITIVE
+cực kỳ tuyệt vời quá	POSITIVE
+quá tuyệt vời quá	POSITIVE
+Rất hài lòng	POSITIVE
+rất rất hài lòng	POSITIVE
+quá rất hài lòng	POSITIVE
+hơi rất hài lòng	POSITIVE
+Đáng tiền bối	NEUTRAL
+quá đáng tiền bối	NEUTRAL
+rất đáng tiền bối	NEUTRAL
+cực kỳ đáng tiền bối	NEUTRAL
+Xuất sắc	POSITIVE
+rất xuất sắc	POSITIVE
+quá xuất sắc	POSITIVE
+cực kỳ xuất sắc	POSITIVE
+Hoàn hảo	POSITIVE
+rất hoàn hảo	POSITIVE
+cực kỳ hoàn hảo	POSITIVE
+khá hoàn hảo	POSITIVE
+Thú vị	POSITIVE
+hơi thú vị	POSITIVE
+cực kỳ thú vị	POSITIVE
+khá thú vị	POSITIVE
+Hào hứng	POSITIVE
+rất hào hứng	POSITIVE
+cực kỳ hào hứng	POSITIVE
+hơi hào hứng	POSITIVE
+Tích cực	POSITIVE
+cực kỳ tích cực	POSITIVE
+rất tích cực	POSITIVE
+hơi tích cực	POSITIVE
+Tệ hại	NEGATIVE
+cực kỳ tệ hại	NEGATIVE
+khá tệ hại	NEGATIVE
+quá tệ hại	NEGATIVE
+Ghét nó	NEGATIVE
+cực kỳ ghét nó	NEGATIVE
+quá ghét nó	NEGATIVE
+khá ghét nó	NEGATIVE
+Thất vọng	NEGATIVE
+hơi thất vọng	NEGATIVE
+quá thất vọng	NEGATIVE
+rất thất vọng	NEGATIVE
+Tức giận	NEGATIVE
+quá tức giận	NEGATIVE
+hơi tức giận	NEGATIVE
+rất tức giận	NEGATIVE
+Buồn bã	NEGATIVE
+rất buồn bã	NEGATIVE
+hơi buồn bã	NEGATIVE
+quá buồn bã	NEGATIVE
+Đau khổ	NEGATIVE
+khá đau khổ	NEGATIVE
+rất đau khổ	NEGATIVE
+hơi đau khổ	NEGATIVE
+Khủng khiếp	NEGATIVE
+quá khủng khiếp	NEGATIVE
+cực kỳ khủng khiếp	NEGATIVE
+hơi khủng khiếp	NEGATIVE
+Tồi tệ	NEGATIVE
+khá tồi tệ	NEGATIVE
+hơi tồi tệ	NEGATIVE
+cực kỳ tồi tệ	NEGATIVE
+Tiêu cực	NEGATIVE
+hơi tiêu cực	NEGATIVE
+quá tiêu cực	NEGATIVE
+rất tiêu cực	NEGATIVE
+Bất mãn	NEGATIVE
+rất bất mãn	NEGATIVE
+quá bất mãn	NEGATIVE
+cực kỳ bất mãn	NEGATIVE
+Bình thường	NEUTRAL
+Ổn thôi	NEUTRAL
+Được đấy	NEUTRAL
+Không sao	NEUTRAL
+Trung lập	NEUTRAL
+Cũng tạm	NEUTRAL
+Không có ý kiến gì	NEUTRAL
+Tương đối ổn	NEUTRAL
+Sản phẩm này dcm	NEGATIVE
+Tôi vl nó	NEGATIVE
+Thật cc	NEGATIVE
+Đồ đĩ	NEUTRAL
+Mẹ mày	NEGATIVE
+Con chó	NEGATIVE
+Địt mẹ	NEGATIVE
+Lồn	NEGATIVE
+Tôi thích nó lắm tuy nhiên khủng khiếp	NEGATIVE
+Sản phẩm này rất tốt tuy nhiên khủng khiếp	NEGATIVE
+Đáng tiền bối mặc dù buồn bã	NEGATIVE
+Tích cực mặc dù ghét nó	NEUTRAL
+Thú vị mặc dù thất vọng	NEUTRAL
+Tôi thích nó lắm nhưng thất vọng	NEUTRAL
+Thú vị hoặc tức giận	NEUTRAL
+Đáng tiền bối hoặc thất vọng	NEGATIVE
+Hào hứng mặc dù ghét nó	NEUTRAL
+Thú vị nhưng bất mãn	NEUTRAL
+Đáng tiền bối và tức giận	NEGATIVE
+Hoàn hảo hoặc buồn bã	POSITIVE
+Xuất sắc nhưng đau khổ	NEUTRAL
+Sản phẩm này rất tốt hoặc tệ hại	NEGATIVE
+Tuyệt vời quá tuy nhiên thất vọng	NEUTRAL
+Hoàn hảo hoặc buồn bã	POSITIVE
+Thú vị hoặc khủng khiếp	NEUTRAL
+Xuất sắc và tồi tệ	NEUTRAL
+Xuất sắc hoặc ghét nó	NEUTRAL
+Tích cực và tức giận	NEUTRAL
+Tôi thích nó lắm tuy nhiên tiêu cực	NEUTRAL
+Rất hài lòng tuy nhiên thất vọng	NEUTRAL
+Rất hài lòng hoặc tiêu cực	NEUTRAL
+Tôi thích nó lắm mặc dù tệ hại	NEUTRAL
+Thú vị và tệ hại	NEUTRAL
+Rất hài lòng nhưng tệ hại	NEUTRAL
+Đáng tiền bối và thất vọng	NEGATIVE
+Hoàn hảo tuy nhiên tệ hại	NEUTRAL
+Tuyệt vời quá mặc dù tồi tệ	NEUTRAL
+Xuất sắc hoặc ghét nó	NEUTRAL
+Hào hứng hoặc khủng khiếp	NEUTRAL
+Hào hứng và đau khổ	NEUTRAL
+Đáng tiền bối nhưng tồi tệ	NEGATIVE
+Hào hứng và khủng khiếp	NEUTRAL
+Tích cực mặc dù đau khổ	NEUTRAL
+Hào hứng mặc dù khủng khiếp	NEUTRAL
+Hoàn hảo và khủng khiếp	NEUTRAL
+Hoàn hảo mặc dù tức giận	NEUTRAL
+Tôi thích nó lắm mặc dù đau khổ	NEGATIVE
+Đáng tiền bối mặc dù khủng khiếp	NEGATIVE
+Tích cực và buồn bã	NEUTRAL
+Thú vị tuy nhiên tệ hại	NEUTRAL
+Hoàn hảo hoặc khủng khiếp	NEUTRAL
+Tuyệt vời quá và khủng khiếp	NEUTRAL
+Thú vị nhưng thất vọng	NEUTRAL
+Tuyệt vời quá nhưng đau khổ	NEUTRAL
+Hào hứng và đau khổ	NEUTRAL
+Thú vị và bất mãn	NEUTRAL
+Đáng tiền bối nhưng tệ hại	NEGATIVE
+Hào hứng và bất mãn	NEUTRAL
+Hoàn hảo tuy nhiên bất mãn	POSITIVE
+Tôi thích nó lắm nhưng bất mãn	NEUTRAL
+Sản phẩm này rất tốt tuy nhiên thất vọng	NEGATIVE
+Hoàn hảo mặc dù bất mãn	POSITIVE
+Xuất sắc mặc dù tồi tệ	NEUTRAL
+Tuyệt vời quá tuy nhiên tức giận	NEUTRAL
+Hoàn hảo và thất vọng	NEUTRAL
+Rất hài lòng và bất mãn	POSITIVE
+Đáng tiền bối hoặc bất mãn	NEGATIVE
+Sản phẩm này rất tốt hoặc bất mãn	NEGATIVE
+Sản phẩm này rất tốt và ghét nó	NEGATIVE
+Thú vị hoặc đau khổ	NEUTRAL
+Đáng tiền bối tuy nhiên tiêu cực	NEGATIVE
+Tích cực hoặc khủng khiếp	NEUTRAL
+Xuất sắc hoặc tồi tệ	NEUTRAL
+Sản phẩm này rất tốt tuy nhiên khủng khiếp	NEGATIVE
+Hoàn hảo tuy nhiên khủng khiếp	NEUTRAL
+Rất hài lòng và tồi tệ	NEUTRAL
+Xuất sắc hoặc bất mãn	POSITIVE
+Đáng tiền bối tuy nhiên khủng khiếp	NEGATIVE
+Tôi thích nó lắm và khủng khiếp	NEGATIVE
+Tích cực hoặc khủng khiếp	NEUTRAL
+Rất hài lòng hoặc ghét nó	NEUTRAL
+Tôi thích nó lắm mặc dù tức giận	NEUTRAL
+Xuất sắc hoặc tệ hại	NEUTRAL
+Hào hứng tuy nhiên thất vọng	NEUTRAL
+Hào hứng và tiêu cực	NEUTRAL
+Thú vị tuy nhiên buồn bã	NEUTRAL
+Hào hứng hoặc đau khổ	NEUTRAL
+Tích cực và tồi tệ	NEUTRAL
+Tích cực hoặc thất vọng	NEUTRAL
+Tôi thích nó lắm và tiêu cực	NEUTRAL
+Thú vị nhưng tệ hại	NEUTRAL
+Hào hứng nhưng buồn bã	NEUTRAL
+Hoàn hảo và khủng khiếp	NEUTRAL
+Hào hứng mặc dù ghét nó	NEUTRAL
+Thú vị hoặc đau khổ	NEUTRAL
+Tích cực mặc dù tệ hại	NEUTRAL
+Thú vị hoặc buồn bã	NEUTRAL
+Rất hài lòng mặc dù khủng khiếp	NEUTRAL
+Đáng tiền bối mặc dù thất vọng	NEGATIVE
+Sản phẩm này rất tốt nhưng tồi tệ	NEGATIVE
+Hào hứng hoặc bất mãn	NEUTRAL
+Xuất sắc nhưng tiêu cực	NEUTRAL
+Sản phẩm này rất tốt tuy nhiên buồn bã	NEGATIVE
+Xuất sắc hoặc tồi tệ	NEUTRAL
+Tuyệt vời quá tuy nhiên tức giận	NEUTRAL
+Xuất sắc mặc dù buồn bã	POSITIVE
+Xuất sắc nhưng đau khổ	NEUTRAL
+Hoàn hảo mặc dù tồi tệ	NEUTRAL
+Rất hài lòng mặc dù tệ hại	NEUTRAL
+Tôi thích nó lắm hoặc thất vọng	NEUTRAL
+Rất hài lòng và đau khổ	NEUTRAL
+Rất hài lòng hoặc ghét nó	NEUTRAL
+Tích cực tuy nhiên khủng khiếp	NEUTRAL
+Tích cực và tệ hại	NEUTRAL
+Tuyệt vời quá nhưng thất vọng	NEUTRAL
+Tích cực và tức giận	NEUTRAL
+Rất hài lòng và thất vọng	NEUTRAL
+Tôi thích nó lắm hoặc buồn bã	NEUTRAL
+Thú vị nhưng bất mãn	NEUTRAL
+Hào hứng và tức giận	NEUTRAL
+Tuyệt vời quá tuy nhiên tệ hại	NEUTRAL
+Tuyệt vời quá nhưng tệ hại	NEUTRAL
+Đáng tiền bối và khủng khiếp	NEGATIVE
+Hoàn hảo tuy nhiên bất mãn	POSITIVE
+Hào hứng mặc dù khủng khiếp	NEUTRAL
+Tuyệt vời quá mặc dù bất mãn	POSITIVE
+Tuyệt vời quá nhưng tiêu cực	NEUTRAL
+Xuất sắc và thất vọng	NEUTRAL
+Rất hài lòng và tệ hại	NEUTRAL
+Rất hài lòng hoặc đau khổ	NEUTRAL
+Xuất sắc tuy nhiên thất vọng	NEUTRAL
+Thú vị nhưng buồn bã	NEUTRAL
+Sản phẩm này rất tốt và thất vọng	NEGATIVE
+Thú vị nhưng tệ hại	NEUTRAL
+Tích cực và thất vọng	NEUTRAL
+Tuyệt vời quá tuy nhiên buồn bã	POSITIVE
+Đáng tiền bối và buồn bã	NEGATIVE
+Tích cực hoặc tồi tệ	NEUTRAL
+Hào hứng và tồi tệ	NEUTRAL
+Xuất sắc tuy nhiên tệ hại	NEUTRAL
+Tích cực hoặc tồi tệ	NEUTRAL
+Tích cực và tiêu cực	NEUTRAL
+Thú vị và tiêu cực	NEUTRAL
+Hoàn hảo mặc dù ghét nó	NEUTRAL
+Rất hài lòng tuy nhiên thất vọng	NEUTRAL
+Rất hài lòng tuy nhiên tệ hại	NEUTRAL
+Thú vị nhưng ghét nó	NEUTRAL
+Thú vị và tồi tệ	NEUTRAL
+Đáng tiền bối mặc dù ghét nó	NEGATIVE
+Đáng tiền bối hoặc thất vọng	NEGATIVE
+Thú vị tuy nhiên buồn bã	NEUTRAL
+Đáng tiền bối và tồi tệ	NEGATIVE
+Tích cực hoặc buồn bã	NEUTRAL
+Sản phẩm này rất tốt và ghét nó	NEGATIVE
+Rất hài lòng mặc dù ghét nó	NEUTRAL
+Tích cực mặc dù bất mãn	NEUTRAL
+Rất hài lòng tuy nhiên thất vọng	NEUTRAL
+Hoàn hảo nhưng tức giận	NEUTRAL
+Hoàn hảo nhưng bất mãn	POSITIVE
+Đáng tiền bối và khủng khiếp	NEGATIVE
+Xuất sắc nhưng tức giận	NEUTRAL
+Tôi thích nó lắm tuy nhiên tồi tệ	NEGATIVE
+Tuyệt vời quá mặc dù bất mãn	POSITIVE
+Thú vị nhưng đau khổ	NEUTRAL
+Sản phẩm này rất tốt tuy nhiên tồi tệ	NEGATIVE
+Sản phẩm này rất tốt mặc dù đau khổ	NEGATIVE
+Tuyệt vời quá nhưng khủng khiếp	NEUTRAL
+Tuyệt vời quá tuy nhiên thất vọng	NEUTRAL
+Tích cực và tiêu cực	NEUTRAL
+Hào hứng tuy nhiên đau khổ	NEUTRAL
+Rất hài lòng nhưng bất mãn	POSITIVE
+Sản phẩm này rất tốt mặc dù đau khổ	NEGATIVE
+Rất hài lòng mặc dù tiêu cực	NEUTRAL
+Rất hài lòng hoặc bất mãn	POSITIVE
+Tích cực mặc dù thất vọng	NEUTRAL
+Hào hứng hoặc bất mãn	NEUTRAL
+Tuyệt vời quá mặc dù bất mãn	POSITIVE
+Xuất sắc tuy nhiên tồi tệ	NEUTRAL
+Tích cực hoặc thất vọng	NEUTRAL
+Tuyệt vời quá mặc dù ghét nó	NEUTRAL
+Sản phẩm này rất tốt tuy nhiên khủng khiếp	NEGATIVE
+Đáng tiền bối tuy nhiên tức giận	NEGATIVE
+Hoàn hảo nhưng khủng khiếp	NEUTRAL
+Sản phẩm này rất tốt nhưng đau khổ	NEGATIVE
+Tích cực nhưng buồn bã	NEUTRAL
+Hào hứng và bất mãn	NEUTRAL
+Hoàn hảo mặc dù khủng khiếp	NEUTRAL
+Thú vị nhưng tức giận	NEUTRAL
+Tích cực hoặc đau khổ	NEUTRAL
+Đáng tiền bối mặc dù tiêu cực	NEGATIVE
+Đáng tiền bối mặc dù ghét nó	NEGATIVE
+Hoàn hảo tuy nhiên ghét nó	NEUTRAL
+Sản phẩm này rất tốt hoặc buồn bã	NEGATIVE
+Xuất sắc mặc dù ghét nó	NEUTRAL
+Tích cực nhưng buồn bã	NEUTRAL
+Thú vị tuy nhiên đau khổ	NEUTRAL
+Xuất sắc tuy nhiên tồi tệ	NEUTRAL
+Tích cực hoặc bất mãn	NEUTRAL
+Tuyệt vời quá mặc dù khủng khiếp	NEUTRAL
+Tôi thích nó lắm tuy nhiên tiêu cực	NEUTRAL
+Đáng tiền bối tuy nhiên tức giận	NEGATIVE
+Đáng tiền bối hoặc bất mãn	NEGATIVE
+Xuất sắc hoặc tiêu cực	NEUTRAL
+Xuất sắc nhưng bất mãn	POSITIVE
+Hào hứng và buồn bã	NEUTRAL
+Tích cực mặc dù thất vọng	NEUTRAL
+Rất hài lòng nhưng khủng khiếp	NEUTRAL
+Thú vị tuy nhiên tiêu cực	NEUTRAL
+không tệ hại	NEGATIVE
+chẳng tệ hại	POSITIVE
+chưa tệ hại	POSITIVE
+không ghét nó	NEGATIVE
+chẳng ghét nó	POSITIVE
+chưa ghét nó	POSITIVE
+không thất vọng	NEGATIVE
+chẳng thất vọng	POSITIVE
+chưa thất vọng	POSITIVE
+không tức giận	NEGATIVE
+chẳng tức giận	POSITIVE
+chưa tức giận	POSITIVE
+không buồn bã	NEGATIVE
+chẳng buồn bã	POSITIVE
+chưa buồn bã	POSITIVE
+không đau khổ	NEGATIVE
+chẳng đau khổ	POSITIVE
+chưa đau khổ	POSITIVE
+không khủng khiếp	NEGATIVE
+chẳng khủng khiếp	POSITIVE
+chưa khủng khiếp	POSITIVE
+không tồi tệ	NEGATIVE
+chẳng tồi tệ	POSITIVE
+chưa tồi tệ	POSITIVE
+không tiêu cực	NEGATIVE
+chẳng tiêu cực	POSITIVE
+chưa tiêu cực	POSITIVE
+không bất mãn	NEGATIVE
+chẳng bất mãn	POSITIVE
+chưa bất mãn	POSITIVE
+không sản phẩm này rất tốt	NEUTRAL
+chẳng sản phẩm này rất tốt	NEUTRAL
+chưa sản phẩm này rất tốt	NEUTRAL
+không tôi thích nó lắm	POSITIVE
+chẳng tôi thích nó lắm	NEGATIVE
+chưa tôi thích nó lắm	NEGATIVE
+không tuyệt vời quá	POSITIVE
+chẳng tuyệt vời quá	NEGATIVE
+chưa tuyệt vời quá	NEGATIVE
+không rất hài lòng	POSITIVE
+chẳng rất hài lòng	NEGATIVE
+chưa rất hài lòng	NEGATIVE
+không đáng tiền bối	NEUTRAL
+chẳng đáng tiền bối	NEUTRAL
+chưa đáng tiền bối	NEUTRAL
+không xuất sắc	POSITIVE
+chẳng xuất sắc	NEGATIVE
+chưa xuất sắc	NEGATIVE
+không hoàn hảo	POSITIVE
+chẳng hoàn hảo	NEGATIVE
+chưa hoàn hảo	NEGATIVE
+không thú vị	POSITIVE
+chẳng thú vị	NEGATIVE
+chưa thú vị	NEGATIVE
+không hào hứng	POSITIVE
+chẳng hào hứng	NEGATIVE
+chưa hào hứng	NEGATIVE
+không tích cực	POSITIVE
+chẳng tích cực	NEGATIVE
+chưa tích cực	NEGATIVE
+không không sản phẩm này rất tốt	NEUTRAL
+không không tôi thích nó lắm	POSITIVE
+không không tuyệt vời quá	POSITIVE
+không không rất hài lòng	POSITIVE
+không không đáng tiền bối	NEUTRAL
+Tôi đã sử dụng dịch vụ này dcm	NEGATIVE
+Sản phẩm đáp ứng nhu cầu của tôi dcm	NEGATIVE
+Tôi sẽ mua lại sản phẩm này dcm	NEGATIVE
+Tôi đã sử dụng dịch vụ này nó	NEUTRAL
+Giao hàng nhanh chóng nó	NEUTRAL
+Dịch vụ khá ổn nó	POSITIVE
+Sản phẩm đáp ứng nhu cầu của tôi cc	NEGATIVE
+Giao hàng nhanh chóng cc	NEGATIVE
+Giá cả hợp lý cho sản phẩm cc	NEGATIVE
+Giá cả hợp lý cho sản phẩm đĩ	NEUTRAL
+Dịch vụ khá ổn đĩ	POSITIVE
+Tôi đã sử dụng dịch vụ này đĩ	NEUTRAL
+Dịch vụ khá ổn mày	POSITIVE
+Sản phẩm đáp ứng nhu cầu của tôi mày	NEUTRAL
+Tôi sẽ mua lại sản phẩm này mày	NEUTRAL
+Dịch vụ được đấy	NEUTRAL
+Tuyệt vời quá và Tuyệt vời quá	POSITIVE
+Rất địt mẹ	NEGATIVE
+Tôi nghĩ Đau khổ	NEGATIVE
+Địt mẹ, Thật cc	NEGATIVE
+Sản phẩm này được đấy	NEUTRAL
+Không sản phẩm đáp ứng nhu cầu của tôi	NEUTRAL
+Tôi nghĩ Thật cc	NEGATIVE
+Rất giá cả hợp lý cho sản phẩm	NEUTRAL
+Rất tệ hại	NEGATIVE
+Sản phẩm này tôi vl nó	NEGATIVE
+Sản phẩm này tệ hại	NEGATIVE
+Rất tuyệt vời quá	POSITIVE
+Bình thường, Sản phẩm này có chất lượng tốt	NEUTRAL
+Dịch vụ xuất sắc	POSITIVE
+Đau khổ và Tức giận	NEGATIVE
+Rất sản phẩm này rất tốt	NEUTRAL
+Tôi vl nó và Đồ đĩ	NEGATIVE
+Tôi nghĩ Thất vọng	NEGATIVE
+Bất mãn, Buồn bã	NEGATIVE
+Sản phẩm này thật cc	NEGATIVE
+Thất vọng và Đau khổ	NEGATIVE
+Sản phẩm này tiêu cực	NEGATIVE
+Thật cc và Lồn	NEGATIVE
+Dịch vụ buồn bã	NEGATIVE
+Sản phẩm này dcm và Địt mẹ	NEGATIVE
+Tôi nghĩ Tệ hại	NEGATIVE
+Tôi nghĩ Tôi sẽ mua lại sản phẩm này	NEUTRAL
+Sản phẩm này tiêu cực	NEGATIVE
+Tôi nghĩ Rất hài lòng	POSITIVE
+Tuyệt vời quá và Tôi thích nó lắm	POSITIVE
+Không buồn bã	NEGATIVE
+Không buồn bã	NEGATIVE
+Rất đáng tiền bối	NEUTRAL
+Tôi sẽ mua lại sản phẩm này và Không sao	NEUTRAL
+Tôi nghĩ Mẹ mày	NEGATIVE
+Sản phẩm này sản phẩm này có chất lượng tốt	NEUTRAL
+Sản phẩm này dcm và Lồn	NEGATIVE
+Giao hàng nhanh chóng và Giá cả hợp lý cho sản phẩm	NEUTRAL
+Không thật cc	NEGATIVE
+Rất con chó	NEGATIVE
+Không sao, Sản phẩm này có chất lượng tốt	NEUTRAL
+Không tích cực	POSITIVE
+Được đấy và Không sao	NEUTRAL
+Đồ đĩ, Địt mẹ	NEGATIVE
+Tệ hại, Tiêu cực	NEGATIVE
+Rất sản phẩm này có chất lượng tốt	NEUTRAL
+Công ty cung cấp hỗ trợ khách hàng và Công ty cung cấp hỗ trợ khách hàng	NEUTRAL
+Được đấy, Dịch vụ khá ổn	POSITIVE
+Sản phẩm này tệ hại	NEGATIVE
+Không đáng tiền bối	NEUTRAL
+Lồn, Thật cc	NEGATIVE
+Rất tệ hại	NEGATIVE
+Sản phẩm này tiêu cực	NEGATIVE
+Sản phẩm này tuyệt vời quá	POSITIVE
+Sản phẩm đáp ứng nhu cầu của tôi và Dịch vụ khá ổn	NEUTRAL
+Rất sản phẩm này dcm	NEGATIVE
+Sản phẩm này dịch vụ khá ổn	POSITIVE
+Sản phẩm này sản phẩm này có chất lượng tốt	NEUTRAL
+Dịch vụ thất vọng	NEGATIVE
+Dịch vụ tức giận	NEGATIVE
+Rất hào hứng	POSITIVE
+Sản phẩm này rất tốt, Tích cực	POSITIVE
+Tôi nghĩ Tiêu cực	NEGATIVE
+Tuyệt vời quá, Rất hài lòng	POSITIVE
+Buồn bã, Buồn bã	NEGATIVE
+Tôi nghĩ Tồi tệ	NEGATIVE
+Tôi nghĩ Tồi tệ	NEGATIVE
+Tôi nghĩ Tương đối ổn	NEUTRAL
+Sản phẩm này tôi thích nó lắm	POSITIVE
+Dịch vụ thất vọng	NEGATIVE
+Không địt mẹ	NEGATIVE
+Lồn, Sản phẩm này dcm	NEGATIVE
+Không thất vọng	NEGATIVE
+Đau khổ và Bất mãn	NEGATIVE
+Tôi nghĩ Thất vọng	NEGATIVE
+Sản phẩm này hoàn hảo	POSITIVE
+Rất tương đối ổn	NEUTRAL
+Sản phẩm này đáng tiền bối	NEUTRAL
+Tôi nghĩ Địt mẹ	NEGATIVE
+Ghét nó và Tệ hại	NEGATIVE
+Tôi thích nó lắm và Tôi thích nó lắm	POSITIVE
+Rất tiêu cực	NEGATIVE
+Không dịch vụ khá ổn	POSITIVE
+Dịch vụ sản phẩm này dcm	NEGATIVE
+Dịch vụ không có ý kiến gì	NEUTRAL
+Rất lồn	NEGATIVE
+Không đồ đĩ	NEUTRAL
+Sản phẩm này xuất sắc	POSITIVE
+Không đáng tiền bối	NEUTRAL
+Sản phẩm này tôi vl nó	NEGATIVE
+Rất sản phẩm này rất tốt	NEUTRAL
+Sản phẩm này rất tốt và Thú vị	POSITIVE
+Rất bất mãn	NEGATIVE
+Không con chó	NEGATIVE
+Lồn và Lồn	NEGATIVE
+Rất xuất sắc	POSITIVE
+Con chó, Sản phẩm này dcm	NEGATIVE
+Tôi nghĩ Sản phẩm đáp ứng nhu cầu của tôi	NEUTRAL
+Không tiêu cực	NEGATIVE
+Tôi nghĩ Tiêu cực	NEGATIVE
+Dịch vụ mẹ mày	NEGATIVE
+Tôi nghĩ Tôi thích nó lắm	POSITIVE
+Tôi nghĩ Sản phẩm này dcm	NEGATIVE
+Dịch vụ rất hài lòng	POSITIVE
+Rất công ty cung cấp hỗ trợ khách hàng	NEUTRAL
+Không sản phẩm này rất tốt	NEUTRAL
+Không đau khổ	NEGATIVE
+Thất vọng, Thất vọng	NEGATIVE
+Tuyệt vời quá, Sản phẩm này rất tốt	POSITIVE
+Rất tiêu cực	NEGATIVE
+Không đau khổ	NEGATIVE
+Sản phẩm này công ty cung cấp hỗ trợ khách hàng	NEUTRAL
+Dịch vụ trung lập	NEUTRAL
+Rất thú vị	POSITIVE
+Sản phẩm này hào hứng	POSITIVE
+Không có ý kiến gì và Được đấy	NEUTRAL
+Tôi nghĩ Bất mãn	NEGATIVE
+Sản phẩm này dcm và Đồ đĩ	NEGATIVE
+Rất hài lòng và Xuất sắc	POSITIVE
+Rất hào hứng	POSITIVE
+Tức giận, Buồn bã	NEGATIVE
+Tuyệt vời quá và Xuất sắc	POSITIVE
+Sản phẩm này không sao	NEUTRAL
+Xuất sắc, Đáng tiền bối	NEUTRAL
+Ổn thôi, Cũng tạm	NEUTRAL
+Ổn thôi, Công ty cung cấp hỗ trợ khách hàng	NEUTRAL
+Tôi nghĩ Dịch vụ khá ổn	POSITIVE
+Sản phẩm này tương đối ổn	NEUTRAL
+Rất tôi vl nó	NEGATIVE
+Tôi nghĩ Tôi vl nó	NEGATIVE
+Khủng khiếp và Bất mãn	NEGATIVE
+Không mẹ mày	NEGATIVE
+Tôi sẽ mua lại sản phẩm này, Bình thường	NEUTRAL
+Rất hài lòng, Tích cực	POSITIVE
+Sản phẩm này có chất lượng tốt, Công ty cung cấp hỗ trợ khách hàng	NEUTRAL
+Tôi nghĩ Thật cc	NEGATIVE
+Dịch vụ rất hài lòng	POSITIVE
+Tôi nghĩ Công ty cung cấp hỗ trợ khách hàng	NEUTRAL
+Hào hứng, Đáng tiền bối	NEUTRAL
+Mẹ mày và Tôi vl nó	NEGATIVE
+Tôi nghĩ Tương đối ổn	NEUTRAL
+Dịch vụ sản phẩm này có chất lượng tốt	NEUTRAL
+Dịch vụ cũng tạm	NEUTRAL
+Đồ đĩ và Mẹ mày	NEGATIVE
+Tôi nghĩ Đồ đĩ	NEUTRAL
+Mẹ mày, Lồn	NEGATIVE
+Không rất hài lòng	POSITIVE
+Lồn và Tôi vl nó	NEGATIVE
+Bất mãn và Tồi tệ	NEGATIVE
+Rất không có ý kiến gì	NEUTRAL
+Công ty cung cấp hỗ trợ khách hàng và Giá cả hợp lý cho sản phẩm	NEUTRAL
+Tôi nghĩ Tôi vl nó	NEGATIVE
+Sản phẩm này sản phẩm này rất tốt	NEUTRAL
+Ổn thôi và Không sao	NEUTRAL
+Sản phẩm này trung lập	NEUTRAL
+Không có ý kiến gì, Cũng tạm	NEUTRAL
+Sản phẩm này tồi tệ	NEGATIVE
+Tôi nghĩ Đáng tiền bối	NEUTRAL
+Không con chó	NEGATIVE
+Tôi nghĩ Bình thường	NEUTRAL
+Tệ hại và Buồn bã	NEGATIVE
+Tôi nghĩ Tôi sẽ mua lại sản phẩm này	NEUTRAL
+Rất thật cc	NEGATIVE
+Sản phẩm này tiêu cực	NEGATIVE
+Dịch vụ con chó	NEGATIVE
+Tôi nghĩ Công ty cung cấp hỗ trợ khách hàng	NEUTRAL
+Sản phẩm này sản phẩm này dcm	NEGATIVE
+Rất thật cc	NEGATIVE
+Sản phẩm này lồn	NEGATIVE
+Tôi nghĩ Thất vọng	NEGATIVE
+Rất tức giận	NEGATIVE
+Sản phẩm này ghét nó	NEGATIVE
+Rất con chó	NEGATIVE
+Không con chó	NEGATIVE
+Dịch vụ đáng tiền bối	NEUTRAL
+Không có ý kiến gì và Ổn thôi	NEUTRAL
+Dịch vụ không có ý kiến gì	NEUTRAL
+Sản phẩm này con chó	NEGATIVE
+Sản phẩm này tôi vl nó	NEGATIVE
+Dịch vụ thật cc	NEGATIVE
+Sản phẩm này thất vọng	NEGATIVE
+Không tức giận	NEGATIVE
+Tôi nghĩ Tồi tệ	NEGATIVE
+Sản phẩm này tôi vl nó	NEGATIVE
+Đồ đĩ và Lồn	NEGATIVE
+Sản phẩm này sản phẩm này rất tốt	NEUTRAL
+Tôi nghĩ Rất hài lòng	POSITIVE
+Địt mẹ, Đồ đĩ	NEGATIVE
+Sản phẩm này lồn	NEGATIVE
+Rất rất hài lòng	POSITIVE
+Dịch vụ tôi đã sử dụng dịch vụ này	NEUTRAL
+Tôi vl nó, Thật cc	NEGATIVE
+Không mẹ mày	NEGATIVE
+Dịch vụ tồi tệ	NEGATIVE
+Sản phẩm đáp ứng nhu cầu của tôi, Công ty cung cấp hỗ trợ khách hàng	NEUTRAL
+Không tuyệt vời quá	POSITIVE
+Tôi nghĩ Rất hài lòng	POSITIVE
+Sản phẩm này công ty cung cấp hỗ trợ khách hàng	NEUTRAL
+Tệ hại, Khủng khiếp	NEGATIVE
+Lồn và Lồn	NEGATIVE
+Mẹ mày, Thật cc	NEGATIVE
+Sản phẩm này lồn	NEGATIVE
+Dịch vụ ghét nó	NEGATIVE
+Sản phẩm này tiêu cực	NEGATIVE
+Sản phẩm này sản phẩm này rất tốt	NEUTRAL
+Dịch vụ rất hài lòng	POSITIVE
+Dịch vụ hào hứng	POSITIVE
+Dịch vụ tiêu cực	NEGATIVE
+Rất khủng khiếp	NEGATIVE
+Tôi nghĩ Thất vọng	NEGATIVE
+Tôi nghĩ Sản phẩm đáp ứng nhu cầu của tôi	NEUTRAL
+Tôi đã sử dụng dịch vụ này và Được đấy	NEUTRAL
+Sản phẩm này trung lập	NEUTRAL
+Sản phẩm này đồ đĩ	NEUTRAL
+Rất tương đối ổn	NEUTRAL
+Sản phẩm này sản phẩm đáp ứng nhu cầu của tôi	NEUTRAL
+Không tôi thích nó lắm	POSITIVE
+Sản phẩm này lồn	NEGATIVE
+Dịch vụ đồ đĩ	NEUTRAL
+Không tích cực	POSITIVE
+Rất giao hàng nhanh chóng	NEUTRAL
+Sản phẩm này dcm và Đồ đĩ	NEGATIVE
+Không thú vị	POSITIVE
+Tôi nghĩ Địt mẹ	NEGATIVE
+Dịch vụ buồn bã	NEGATIVE
+Không tuyệt vời quá	POSITIVE
+Tôi nghĩ Không sao	NEUTRAL
+Đáng tiền bối và Rất hài lòng	POSITIVE
+Tôi nghĩ Sản phẩm này dcm	NEGATIVE
+Tôi nghĩ Bất mãn	NEGATIVE
+Không dịch vụ khá ổn	POSITIVE
+Dịch vụ đau khổ	NEGATIVE
+Sản phẩm này tích cực	POSITIVE
+Thật cc, Mẹ mày	NEGATIVE
+Sản phẩm này đồ đĩ	NEUTRAL
+Không con chó	NEGATIVE
+Rất bình thường	NEUTRAL
+Rất tệ hại	NEGATIVE
+Rất sản phẩm này dcm	NEGATIVE
+Tôi nghĩ Con chó	NEGATIVE
+Dịch vụ hào hứng	POSITIVE
+Sản phẩm này có chất lượng tốt và Dịch vụ khá ổn	NEUTRAL
+Rất đồ đĩ	NEUTRAL
+Rất địt mẹ	NEGATIVE
+Sản phẩm này không sao	NEUTRAL
+Không cũng tạm	NEUTRAL
+Không tôi thích nó lắm	POSITIVE
+Tôi nghĩ Đồ đĩ	NEUTRAL
+Không hoàn hảo	POSITIVE
+Không tôi sẽ mua lại sản phẩm này	NEUTRAL
+Sản phẩm này rất hài lòng	POSITIVE
+Tích cực, Tuyệt vời quá	POSITIVE
+Mẹ mày, Con chó	NEGATIVE
+Sản phẩm này dịch vụ khá ổn	POSITIVE
+Tôi nghĩ Xuất sắc	POSITIVE
+Dịch vụ đồ đĩ	NEUTRAL
+Dịch vụ đồ đĩ	NEUTRAL
+Tôi sẽ mua lại sản phẩm này và Sản phẩm đáp ứng nhu cầu của tôi	NEUTRAL
+Không ghét nó	NEGATIVE
+Tôi sẽ mua lại sản phẩm này và Trung lập	NEUTRAL
+Sản phẩm này không có ý kiến gì	NEUTRAL
+Không rất hài lòng	POSITIVE
+Rất tôi vl nó	NEGATIVE
+Sản phẩm này rất tốt và Tôi thích nó lắm	POSITIVE
+Sản phẩm này dcm và Sản phẩm này dcm	NEGATIVE
+Tôi nghĩ Tôi đã sử dụng dịch vụ này	NEUTRAL
+Rất lồn	NEGATIVE
+Dịch vụ khá ổn, Trung lập	NEUTRAL
+Sản phẩm này xuất sắc	POSITIVE
+Không tiêu cực	NEGATIVE
+Tôi nghĩ Hoàn hảo	POSITIVE
+Rất mẹ mày	NEGATIVE
+Thất vọng, Tồi tệ	NEGATIVE
+Sản phẩm này hào hứng	POSITIVE
+Tôi nghĩ Thật cc	NEGATIVE
+Tôi vl nó, Lồn	NEGATIVE
+Dịch vụ mẹ mày	NEGATIVE
+Dịch vụ thất vọng	NEGATIVE
+Tôi nghĩ Tệ hại	NEGATIVE
+Sản phẩm này con chó	NEGATIVE
+Rất tệ hại	NEGATIVE
+Rất không có ý kiến gì	NEUTRAL
+Sản phẩm này ghét nó	NEGATIVE
+Rất bình thường	NEUTRAL
+Đáng tiền bối, Sản phẩm này rất tốt	NEUTRAL
+Tôi nghĩ Tôi vl nó	NEGATIVE
+Rất lồn	NEGATIVE
+Thật cc và Con chó	NEGATIVE
+Không trung lập	NEUTRAL
+Con chó và Sản phẩm này dcm	NEGATIVE
+Tôi nghĩ Thật cc	NEGATIVE
+Rất không sao	NEUTRAL
+Tôi nghĩ Thật cc	NEGATIVE
+Tôi nghĩ Giao hàng nhanh chóng	NEUTRAL
+Không mẹ mày	NEGATIVE
+Sản phẩm này hoàn hảo	POSITIVE
+Sản phẩm đáp ứng nhu cầu của tôi và Tôi đã sử dụng dịch vụ này	NEUTRAL
+Rất sản phẩm này dcm	NEGATIVE
+Sản phẩm này công ty cung cấp hỗ trợ khách hàng	NEUTRAL
+Rất tồi tệ	NEGATIVE
+Rất đáng tiền bối	NEUTRAL
+Dịch vụ đồ đĩ	NEUTRAL
+Tôi nghĩ Con chó	NEGATIVE
+Thất vọng và Ghét nó	NEGATIVE
+Tôi nghĩ Sản phẩm này dcm	NEGATIVE
+Tôi nghĩ Đồ đĩ	NEUTRAL
+Tuyệt vời quá và Tích cực	POSITIVE
+Rất ghét nó	NEGATIVE
+Không tôi vl nó	NEGATIVE
+Giá cả hợp lý cho sản phẩm, Bình thường	NEUTRAL
+Sản phẩm này cũng tạm	NEUTRAL
+Rất thật cc	NEGATIVE
+Dịch vụ xuất sắc	POSITIVE
+Không sản phẩm đáp ứng nhu cầu của tôi	NEUTRAL
+Sản phẩm này dịch vụ khá ổn	POSITIVE
+Dịch vụ tôi thích nó lắm	POSITIVE
+Sản phẩm này thú vị	POSITIVE
+Lồn và Tôi vl nó	NEGATIVE
+Dịch vụ tôi thích nó lắm	POSITIVE
+Dịch vụ tôi thích nó lắm	POSITIVE
+Rất bất mãn	NEGATIVE
+Không tuyệt vời quá	POSITIVE
+Bất mãn, Tức giận	NEGATIVE
+Tôi nghĩ Tích cực	POSITIVE
+Không rất hài lòng	POSITIVE
+Mẹ mày và Lồn	NEGATIVE
+Dịch vụ buồn bã	NEGATIVE
+Đáng tiền bối, Đáng tiền bối	NEUTRAL
+Mẹ mày, Lồn	NEGATIVE
+Dịch vụ lồn	NEGATIVE
+Dịch vụ tương đối ổn	NEUTRAL
+Sản phẩm này xuất sắc	POSITIVE
+Sản phẩm này tồi tệ	NEGATIVE
+Tôi nghĩ Khủng khiếp	NEGATIVE
+Hoàn hảo, Hào hứng	POSITIVE
+Hào hứng và Thú vị	POSITIVE
+Tuyệt vời quá, Tuyệt vời quá	POSITIVE
+Dịch vụ không có ý kiến gì	NEUTRAL
+Sản phẩm này tệ hại	NEGATIVE
+Không rất hài lòng	POSITIVE
+Trung lập và Giá cả hợp lý cho sản phẩm	NEUTRAL
+Không khủng khiếp	NEGATIVE
+Sản phẩm này dcm, Lồn	NEGATIVE
+Tôi nghĩ Xuất sắc	POSITIVE
+Không con chó	NEGATIVE
+Tôi nghĩ Hào hứng	POSITIVE
+Không mẹ mày	NEGATIVE
+Dịch vụ sản phẩm này có chất lượng tốt	NEUTRAL
+Dịch vụ tôi thích nó lắm	POSITIVE
+Rất mẹ mày	NEGATIVE
+Tích cực, Hoàn hảo	POSITIVE
+Sản phẩm này đồ đĩ	NEUTRAL
+Rất giao hàng nhanh chóng	NEUTRAL
+Không có ý kiến gì, Không sao	NEUTRAL
+Rất buồn bã	NEGATIVE
+Địt mẹ, Con chó	NEGATIVE
+Dịch vụ không có ý kiến gì	NEUTRAL
+Dịch vụ hào hứng	POSITIVE
+Dịch vụ buồn bã	NEGATIVE
+Không thất vọng	NEGATIVE
+Dịch vụ thú vị	POSITIVE
+Địt mẹ và Thật cc	NEGATIVE
+Đồ đĩ và Tôi vl nó	NEGATIVE
+Tôi vl nó và Lồn	NEGATIVE
+Tôi nghĩ Sản phẩm này dcm	NEGATIVE
+Dịch vụ ghét nó	NEGATIVE
+Rất con chó	NEGATIVE
+Sản phẩm này khủng khiếp	NEGATIVE
+Dịch vụ tuyệt vời quá	POSITIVE
+Lồn và Mẹ mày	NEGATIVE
+Rất địt mẹ	NEGATIVE
+Trung lập, Trung lập	NEUTRAL
+Dịch vụ tương đối ổn	NEUTRAL
+Tức giận và Tồi tệ	NEGATIVE
+Tôi nghĩ Đáng tiền bối	NEUTRAL
+Dịch vụ hoàn hảo	POSITIVE
+Bất mãn và Tệ hại	NEGATIVE
+Không tôi đã sử dụng dịch vụ này	NEUTRAL
+Không tức giận	NEGATIVE
+Dịch vụ không sao	NEUTRAL
+Không ổn thôi	NEUTRAL
+Rất sản phẩm này rất tốt	NEUTRAL
+Sản phẩm này đồ đĩ	NEUTRAL
+Sản phẩm này hào hứng	POSITIVE
+Sản phẩm này thú vị	POSITIVE
+Rất sản phẩm này rất tốt	NEUTRAL
+Không thất vọng	NEGATIVE
+Không thú vị	POSITIVE
+Không tồi tệ	NEGATIVE
+Dịch vụ hoàn hảo	POSITIVE
+Rất con chó	NEGATIVE
+Tôi nghĩ Sản phẩm này rất tốt	NEUTRAL
+Xuất sắc, Tôi thích nó lắm	POSITIVE
+Dịch vụ tuyệt vời quá	POSITIVE
+Sản phẩm này rất hài lòng	POSITIVE
+Tôi nghĩ Thật cc	NEGATIVE
+Không thật cc	NEGATIVE
+Khủng khiếp và Ghét nó	NEGATIVE
+Tôi nghĩ Thật cc	NEGATIVE
+Tương đối ổn	NEUTRAL
+Trung lập	NEUTRAL
+Rất hài lòng	POSITIVE
+Hào hứng	POSITIVE
+Tôi thích nó lắm	POSITIVE
+Tôi thích nó lắm	POSITIVE
+Tích cực	POSITIVE
+Dịch vụ khá ổn	POSITIVE
+Thú vị	POSITIVE
+Không có ý kiến gì	NEUTRAL
+Tiêu cực	NEGATIVE
+Khủng khiếp	NEGATIVE
+Không sao	NEUTRAL
+Tức giận	NEGATIVE
+Thú vị	POSITIVE
+Hoàn hảo	POSITIVE
+Tệ hại	NEGATIVE
+Ghét nó	NEGATIVE
+Tôi sẽ mua lại sản phẩm này	NEUTRAL
+Bình thường	NEUTRAL
+Sản phẩm đáp ứng nhu cầu của tôi	NEUTRAL
+Trung lập	NEUTRAL
+Tồi tệ	NEGATIVE
+Ổn thôi	NEUTRAL
+Hào hứng	POSITIVE
+Không có ý kiến gì	NEUTRAL
+Tôi sẽ mua lại sản phẩm này	NEUTRAL
+Tức giận	NEGATIVE
+Khủng khiếp	NEGATIVE
+Ghét nó	NEGATIVE
+Tương đối ổn	NEUTRAL
+Tồi tệ	NEGATIVE
+Công ty cung cấp hỗ trợ khách hàng	NEUTRAL
+Buồn bã	NEGATIVE
+Tiêu cực	NEGATIVE
+Tôi thích nó lắm	POSITIVE
+Thất vọng	NEGATIVE
+Tương đối ổn	NEUTRAL
+Giao hàng nhanh chóng	NEUTRAL
+Trung lập	NEUTRAL
+Đáng tiền bối	NEUTRAL
+Tôi thích nó lắm	POSITIVE
+Bình thường	NEUTRAL
+Thất vọng	NEGATIVE
+Thất vọng	NEGATIVE
+Xuất sắc	POSITIVE
+Ghét nó	NEGATIVE
+Sản phẩm đáp ứng nhu cầu của tôi	NEUTRAL
+Hào hứng	POSITIVE
+Ghét nó	NEGATIVE
+Khủng khiếp	NEGATIVE
+Tiêu cực	NEGATIVE
+Hoàn hảo	POSITIVE
+Ghét nó	NEGATIVE
+Tệ hại	NEGATIVE
+Tích cực	POSITIVE
+Tiêu cực	NEGATIVE
+Cũng tạm	NEUTRAL
+Buồn bã	NEGATIVE
+Tiêu cực	NEGATIVE
+Cũng tạm	NEUTRAL
+Tệ hại	NEGATIVE
+Sản phẩm này rất tốt	NEUTRAL
+Công ty cung cấp hỗ trợ khách hàng	NEUTRAL
+Tức giận	NEGATIVE
+Bình thường	NEUTRAL
+Sản phẩm này có chất lượng tốt	NEUTRAL
+Sản phẩm này rất tốt	NEUTRAL
+Buồn bã	NEGATIVE
+Tồi tệ	NEGATIVE
+Ghét nó	NEGATIVE
+Ghét nó	NEGATIVE
+Bình thường	NEUTRAL
+Buồn bã	NEGATIVE
+Công ty cung cấp hỗ trợ khách hàng	NEUTRAL
+Hoàn hảo	POSITIVE
+Đau khổ	NEGATIVE
+Bất mãn	NEGATIVE
+Tiêu cực	NEGATIVE
+Buồn bã	NEGATIVE
+Tuyệt vời quá	POSITIVE
+Tiêu cực	NEGATIVE
+Tệ hại	NEGATIVE
+Tuyệt vời quá	POSITIVE
+Sản phẩm này rất tốt	NEUTRAL
+Ổn thôi	NEUTRAL
+Không sao	NEUTRAL
+Tức giận	NEGATIVE
+Xuất sắc	POSITIVE
+Tức giận	NEGATIVE
+Tệ hại	NEGATIVE
+Bình thường	NEUTRAL
+Ghét nó	NEGATIVE
+Giá cả hợp lý cho sản phẩm	NEUTRAL
+Bất mãn	NEGATIVE
+Thất vọng	NEGATIVE
+Khủng khiếp	NEGATIVE
+Xuất sắc	POSITIVE
+Dịch vụ khá ổn	POSITIVE
+Tức giận	NEGATIVE
+Tôi sẽ mua lại sản phẩm này	NEUTRAL
+Tuyệt vời quá	POSITIVE
+Tiêu cực	NEGATIVE
+Dịch vụ khá ổn	POSITIVE
+Hoàn hảo	POSITIVE
+Buồn bã	NEGATIVE
+Tương đối ổn	NEUTRAL
+Giá cả hợp lý cho sản phẩm	NEUTRAL
+Dịch vụ khá ổn	POSITIVE
+Tuyệt vời quá	POSITIVE
+Rất hài lòng	POSITIVE
+Công ty cung cấp hỗ trợ khách hàng	NEUTRAL
+Cũng tạm	NEUTRAL
+Tồi tệ	NEGATIVE
+Buồn bã	NEGATIVE
+Dịch vụ khá ổn	POSITIVE
+Thú vị	POSITIVE
+Thất vọng	NEGATIVE
+Tức giận	NEGATIVE
+Cũng tạm	NEUTRAL
+Tức giận	NEGATIVE
+Xuất sắc	POSITIVE
+Bất mãn	NEGATIVE
+Bất mãn	NEGATIVE
+Tôi sẽ mua lại sản phẩm này	NEUTRAL
+Đáng tiền bối	NEUTRAL
+Đáng tiền bối	NEUTRAL
+Cũng tạm	NEUTRAL
+Tệ hại	NEGATIVE
+Sản phẩm này có chất lượng tốt	NEUTRAL
+Tuyệt vời quá	POSITIVE
+Tôi sẽ mua lại sản phẩm này	NEUTRAL
+Tồi tệ	NEGATIVE
+Đáng tiền bối	NEUTRAL
+Thất vọng	NEGATIVE
+Rất hài lòng	POSITIVE
+Xuất sắc	POSITIVE
+Trung lập	NEUTRAL
+Rất hài lòng	POSITIVE
+Bình thường	NEUTRAL
+Tích cực	POSITIVE
+Ghét nó	NEGATIVE
+Rất hài lòng	POSITIVE
+Tuyệt vời quá	POSITIVE
+Tức giận	NEGATIVE
+Dịch vụ khá ổn	POSITIVE
+Bình thường	NEUTRAL
+Không sao	NEUTRAL
+Được đấy	NEUTRAL
+Đáng tiền bối	NEUTRAL
+Giao hàng nhanh chóng	NEUTRAL
+Thú vị	POSITIVE
+Tương đối ổn	NEUTRAL
+Tiêu cực	NEGATIVE
+Hoàn hảo	POSITIVE
+Công ty cung cấp hỗ trợ khách hàng	NEUTRAL
+Ổn thôi	NEUTRAL
+Tiêu cực	NEGATIVE
+Tôi thích nó lắm	POSITIVE
+Sản phẩm này rất tốt	NEUTRAL
+Khủng khiếp	NEGATIVE
+Tệ hại	NEGATIVE
+Thú vị	POSITIVE
+Được đấy	NEUTRAL
+Tôi thích nó lắm	POSITIVE
+Tiêu cực	NEGATIVE
+Rất hài lòng	POSITIVE
+Sản phẩm này rất tốt	NEUTRAL
+Được đấy	NEUTRAL
+Thú vị	POSITIVE
+Tương đối ổn	NEUTRAL
+Xuất sắc	POSITIVE
+Ghét nó	NEGATIVE
+Tức giận	NEGATIVE
+Đau khổ	NEGATIVE
+Tôi đã sử dụng dịch vụ này	NEUTRAL
+Đau khổ	NEGATIVE
+Trung lập	NEUTRAL
+Không sao	NEUTRAL
+Buồn bã	NEGATIVE
+Buồn bã	NEGATIVE
+Đáng tiền bối	NEUTRAL
+Ghét nó	NEGATIVE
+Hoàn hảo	POSITIVE
+Tôi thích nó lắm	POSITIVE
+Trung lập	NEUTRAL
+Giá cả hợp lý cho sản phẩm	NEUTRAL
+Xuất sắc	POSITIVE
+Xuất sắc	POSITIVE
+Thất vọng	NEGATIVE
+Tôi sẽ mua lại sản phẩm này	NEUTRAL
+Khủng khiếp	NEGATIVE
+Tiêu cực	NEGATIVE
+Tồi tệ	NEGATIVE
+Bình thường	NEUTRAL
+Tồi tệ	NEGATIVE
+Thú vị	POSITIVE
+Hoàn hảo	POSITIVE
+Tôi thích nó lắm	POSITIVE
+Sản phẩm này rất tốt	NEUTRAL
