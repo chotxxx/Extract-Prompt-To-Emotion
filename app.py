@@ -10,6 +10,77 @@ from rule_based import RuleBasedSentiment
 from fusion import ConditionalFusion
 from db_connector import DBConnector
 
+# Input validation functions
+def validate_input(text):
+    """
+    Validate user input for spam, meaningless content, and length.
+    Returns (is_valid, error_message)
+    """
+    if not text or text.strip() == "":
+        return False, "❌ Vui lòng nhập văn bản!"
+
+    text = text.strip()
+
+    # Check minimum length
+    if len(text) < 2:
+        return False, "❌ Văn bản quá ngắn! Vui lòng nhập ít nhất 2 ký tự."
+
+    # Check maximum reasonable length (Vietnamese sentences)
+    if len(text) > 1000:
+        return False, "⚠️ Văn bản quá dài! Giới hạn 1000 ký tự."
+
+    # Check for spam/random characters
+    import re
+
+    # Count alphanumeric characters vs total
+    alpha_count = len(re.findall(r'[a-zA-ZàáảãạâầấẩẫậăằắẳẵặèéẻẽẹêềếểễệđìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵÀÁẢÃẠÂẦẤẨẪẬĂẰẮẲẴẶÈÉẺẼẸÊỀẾỂỄỆĐÌÍỈĨỊÒÓỎÕỌÔỒỐỔỖỘƠỜỚỞỠỢÙÚỦŨỤƯỪỨỬỮỰỲÝỶỸỴ\s]', text))
+    total_chars = len(text)
+    meaningful_ratio = alpha_count / total_chars if total_chars > 0 else 0
+
+    # Check for excessive special characters/numbers
+    if meaningful_ratio < 0.3:  # Less than 30% meaningful characters
+        return False, "❌ Văn bản có quá nhiều ký tự đặc biệt hoặc số! Vui lòng nhập văn bản tiếng Việt có nghĩa."
+
+    # Check for keyboard mashing (repeated characters)
+    if re.search(r'(.)\1{4,}', text):  # 5+ repeated characters
+        return False, "❌ Phát hiện ký tự lặp lại! Vui lòng nhập văn bản có nghĩa."
+
+    # Check for excessive consecutive consonants (likely spam)
+    consonants = 'bcdfghjklmnpqrstvwxyzđ'
+    max_consonant_streak = max(len(match) for match in re.findall(f'[{consonants}]+', text.lower()))
+    if max_consonant_streak > 8:
+        return False, "❌ Văn bản có vẻ như spam! Vui lòng nhập câu tiếng Việt có nghĩa."
+
+    # Additional spam detection: random keyboard patterns
+    keyboard_patterns = [
+        r'qwer', r'asdf', r'zxcv', r'1234', r'qwerty', r'asdfgh', r'zxcvbnm',
+        r'qaz', r'wsx', r'edc', r'rfv', r'tgb', r'yhn', r'ujm', r'ik,', r'ol.',
+        r'p;/', r'[\[\]{}|\\:;"<>?]', r'[=-_+`~]'
+    ]
+    text_lower = text.lower()
+    spam_score = 0
+    for pattern in keyboard_patterns:
+        if re.search(pattern, text_lower):
+            spam_score += 1
+
+    # If multiple keyboard patterns detected, likely spam
+    if spam_score >= 3:
+        return False, "❌ Phát hiện pattern bàn phím spam! Vui lòng nhập văn bản có nghĩa."
+
+    # Check for single word sentences that are too short
+    words = text.split()
+    if len(words) == 1 and len(text) < 3:
+        return False, "❌ Từ đơn quá ngắn! Vui lòng nhập câu có nghĩa."
+
+    # Check for Vietnamese content (basic check)
+    vietnamese_chars = 'àáảãạâầấẩẫậăằắẳẵặèéẻẽẹêềếểễệđìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵÀÁẢÃẠÂẦẤẨẪẬĂẰẮẲẴẶÈÉẺẼẸÊỀẾỂỄỆĐÌÍỈĨỊÒÓỎÕỌÔỒỐỔỖỘƠỜỚỞỠỢÙÚỦŨỤƯỪỨỬỮỰỲÝỶỸỴ'
+    has_vietnamese = any(char in text for char in vietnamese_chars)
+
+    if not has_vietnamese and len(text) > 10:
+        return False, "⚠️ Không phát hiện ký tự tiếng Việt. Vui lòng nhập văn bản bằng tiếng Việt."
+
+    return True, ""
+
 # Export functions
 def export_to_csv(df):
     """Export dataframe to CSV"""
@@ -108,27 +179,32 @@ with tab1:
 
     if st.button("Phân loại"):
         if text_input.strip():
-            with st.spinner("Đang xử lý..."):
-                # Preprocess
-                processed_text = preprocessor.preprocess(text_input)
+            # Validate input first
+            is_valid, error_msg = validate_input(text_input)
+            if not is_valid:
+                st.error(error_msg)
+            else:
+                with st.spinner("Đang xử lý..."):
+                    # Preprocess
+                    processed_text = preprocessor.preprocess(text_input)
 
-                # PhoBERT
-                l_phobert, c_phobert = phobert.analyze_sentiment(processed_text)
+                    # PhoBERT
+                    l_phobert, c_phobert = phobert.analyze_sentiment(processed_text)
 
-                # Rule-based
-                s_rule = rule_based.analyze_sentiment(processed_text)
+                    # Rule-based
+                    s_rule = rule_based.analyze_sentiment(processed_text)
 
-                # Fusion
-                final_label, final_conf = fusion.fuse(l_phobert, c_phobert, s_rule)
+                    # Fusion
+                    final_label, final_conf = fusion.fuse(l_phobert, c_phobert, s_rule)
 
-                # Display results
-                st.success(f"Cảm xúc: {final_label}")
-                st.info(f"Độ tin cậy tổng hợp: {final_conf:.2f}")
+                    # Display results
+                    st.success(f"Cảm xúc: {final_label}")
+                    st.info(f"Độ tin cậy tổng hợp: {final_conf:.2f}")
 
-                # Save to DB
-                db.insert_history(text_input, processed_text, final_label, final_conf)
+                    # Save to DB
+                    db.insert_history(text_input, processed_text, final_label, final_conf)
         else:
-            st.error("Vui lòng nhập văn bản!")
+            st.error("❌ Vui lòng nhập văn bản!")
 
 with tab2:
     st.header("Lịch sử Phân loại")

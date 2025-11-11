@@ -27,7 +27,7 @@ class RuleBasedSentiment:
             "dcm": -5, "đcm": -5, "vl": -5, "vcl": -5, "cc": -5, "cl": -5, "địt": -5, "dit": -5,
             "chó": -4, "cho": -4, "mẹ": -4, "me": -4, "đồ ngu": -4, "do ngu": -4, "thằng ngu": -4, "thang ngu": -4,
             "con đĩ": -5, "con di": -5, "lồn": -5, "lon": -5, "cặc": -5, "cac": -5, "buồi": -5, "buoi": -5,
-            "nguyền rủa": -5, "nguyen rua": -5, "chửi thề": -5, "chui the": -5, "toxic": -4,
+            "nguyền rủa": -5, "nguyen rua": -5, "chửi thề": -5, "chui the": -5, "toxic": -4, "vc": -5, "cdmm": -5, "cđmm": -5,
             # Neutral or context-dependent - adjusted scores
             "bình thường": 0, "binh thuong": 0, "ổn": 0.5, "on": 0.5, "được": 0.5, "duoc": 0.5, "không": 0, "khong": 0,
             # Additional neutral words and phrases with lower positive scores
