@@ -1,13 +1,28 @@
 class ConditionalFusion:
-    def __init__(self, t_high=0.85, t_low=0.50, theta_rule=2.0, w_phobert=0.2, w_rule=0.8):
+    def __init__(self, t_high=0.85, t_low=0.50, theta_rule=2.0, w_phobert=0.15, w_rule=0.85):
+        # lower DL weight and increase rule weight to favor rule-based neutrality in conflicts
         self.t_high = t_high
         self.t_low = t_low
         self.theta_rule = theta_rule
         self.w_phobert = w_phobert
         self.w_rule = w_rule
 
-    def fuse(self, l_phobert, c_phobert, s_rule):
-        """Conditional Fusion Algorithm with improved neutral handling"""
+    def fuse(self, l_phobert, c_phobert, s_rule, mixed_flag=False, neutral_flag=False):
+        """Conditional Fusion Algorithm with improved neutral handling.
+
+        Args:
+            l_phobert: label from PhoBERT
+            c_phobert: confidence from PhoBERT
+            s_rule: score from rule-based analyzer
+            mixed_flag: boolean, True if rule-based detected mixed/contrastive sentiment
+        """
+        # If rule-based explicitly flagged mixed sentiment, prefer NEUTRAL
+        if mixed_flag:
+            return "NEUTRAL", 0.90
+
+        # If rule indicates neutral context (short descriptive/question/filler) and rule score is weak, force NEUTRAL
+        if neutral_flag and abs(s_rule) < 1.0:
+            return "NEUTRAL", 0.85
         # Special veto for very negative rule-based (toxic words)
         if s_rule <= -4.0:
             return "NEGATIVE", abs(s_rule) / 5.0

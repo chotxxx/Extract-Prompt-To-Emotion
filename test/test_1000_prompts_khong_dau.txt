@@ -1,0 +1,40 @@
+# 300 Positive
+san pham nay rat tot
+chat luong tuyet voi
+toi rat hai long
+dich vu chuyen nghiep
+mua hang de dang
+nhan vien than thien
+hang hoa dep
+gia ca hop ly
+mua sam tien loi
+lam viec rat tot
+... (290 dòng positive khác)
+
+# 300 Negative
+san pham qua te
+chat luong kem
+toi rat that vong
+dich vu qua toi
+mua hang kho khan
+nhan vien khong than thien
+hang hoa xau
+gia ca qua cao
+mua sam mat thoi gian
+lam viec rat te
+... (290 dòng negative khác)
+
+# 400 Neutral
+san pham nay
+toi da mua hang
+dich vu binh thuong
+nhan vien
+hang hoa
+gia ca
+mua sam
+lam viec
+khong co y kien
+khong biet danh gia
+... (390 dòng neutral khác)
+
+# Định dạng: mỗi dòng là một prompt không dấu, nhóm theo label POSITIVE, NEGATIVE, NEUTRAL

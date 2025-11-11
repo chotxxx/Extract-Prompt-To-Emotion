@@ -13,33 +13,30 @@ from db_connector import DBConnector
 # Input validation functions
 def validate_input(text):
     """
-    Validate user input for spam, meaningless content, and length.
+    Validate input text for Vietnamese sentiment analysis.
     Returns (is_valid, error_message)
     """
+    import re
     if not text or text.strip() == "":
         return False, "❌ Vui lòng nhập văn bản!"
 
     text = text.strip()
 
-    # Check minimum length
-    if len(text) < 2:
-        return False, "❌ Văn bản quá ngắn! Vui lòng nhập ít nhất 2 ký tự."
+    # Check minimum length (after stripping)
+    if len(text) < 3:
+        return False, "❌ Văn bản quá ngắn! Vui lòng nhập ít nhất 3 ký tự."
 
-    # Check maximum reasonable length (Vietnamese sentences)
-    if len(text) > 1000:
-        return False, "⚠️ Văn bản quá dài! Giới hạn 1000 ký tự."
+    # Check maximum length
+    if len(text) > 500:
+        return False, "❌ Văn bản quá dài! Vui lòng nhập dưới 500 ký tự."
 
-    # Check for spam/random characters
-    import re
-
-    # Count alphanumeric characters vs total
-    alpha_count = len(re.findall(r'[a-zA-ZàáảãạâầấẩẫậăằắẳẵặèéẻẽẹêềếểễệđìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵÀÁẢÃẠÂẦẤẨẪẬĂẰẮẲẴẶÈÉẺẼẸÊỀẾỂỄỆĐÌÍỈĨỊÒÓỎÕỌÔỒỐỔỖỘƠỜỚỞỠỢÙÚỦŨỤƯỪỨỬỮỰỲÝỶỸỴ\s]', text))
+    # Calculate meaningful characters ratio
     total_chars = len(text)
-    meaningful_ratio = alpha_count / total_chars if total_chars > 0 else 0
+    meaningful_chars = sum(1 for char in text if char.isalnum() or char in 'àáảãạâầấẩẫậăằắẳẵặèéẻẽẹêềếểễệđìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵÀÁẢÃẠÂẦẤẨẪẬĂẰẮẲẴẶÈÉẺẼẸÊỀẾỂỄỆĐÌÍỈĨỊÒÓỎÕỌÔỒỐỔỖỘƠỜỚỞỠỢÙÚỦŨỤƯỪỨỬỮỰỲÝỶỸỴĐ .,;!?' )
+    meaningful_ratio = meaningful_chars / total_chars
 
-    # Check for excessive special characters/numbers
     if meaningful_ratio < 0.3:  # Less than 30% meaningful characters
-        return False, "❌ Văn bản có quá nhiều ký tự đặc biệt hoặc số! Vui lòng nhập văn bản tiếng Việt có nghĩa."
+        return False, "❌ Văn bản có quá nhiều ký tự đặc biệt! Vui lòng nhập văn bản có nghĩa."
 
     # Check for keyboard mashing (repeated characters)
     if re.search(r'(.)\1{4,}', text):  # 5+ repeated characters
@@ -47,7 +44,8 @@ def validate_input(text):
 
     # Check for excessive consecutive consonants (likely spam)
     consonants = 'bcdfghjklmnpqrstvwxyzđ'
-    max_consonant_streak = max(len(match) for match in re.findall(f'[{consonants}]+', text.lower()))
+    matches = re.findall(f'[{consonants}]+', text.lower())
+    max_consonant_streak = max(len(match) for match in matches) if matches else 0
     if max_consonant_streak > 8:
         return False, "❌ Văn bản có vẻ như spam! Vui lòng nhập câu tiếng Việt có nghĩa."
 
@@ -67,19 +65,63 @@ def validate_input(text):
     if spam_score >= 3:
         return False, "❌ Phát hiện pattern bàn phím spam! Vui lòng nhập văn bản có nghĩa."
 
-    # Check for single word sentences that are too short
-    words = text.split()
-    if len(words) == 1 and len(text) < 3:
-        return False, "❌ Từ đơn quá ngắn! Vui lòng nhập câu có nghĩa."
+    # Check for Vietnamese content (support both accented and unaccented Vietnamese)
+    def is_vietnamese_text(text):
+        """Check if text contains Vietnamese words (accented or unaccented)"""
+        # Common Vietnamese words (both accented and unaccented forms)
+        vietnamese_words = {
+            # Basic words
+            'va', 'ma', 'la', 'duoc', 'khong', 'co', 'nguoi', 'di', 'den', 'tu',
+            'trong', 'tren', 'duoi', 'sang', 'phai', 'trai', 'len', 'xuong',
+            'nhu', 'neu', 'thi', 'hay', 'hoac', 'luc', 'khi', 'sau', 'truoc',
+            # Common verbs
+            'lam', 'an', 'uong', 'di', 'den', 've', 'noi', 'nghe', 'thay', 'biet',
+            'muon', 'can', 'nen', 'phai', 'duoc', 'co', 'la', 'duoc', 'khong',
+            # Common adjectives
+            'tot', 'xau', 'dep', 'hai', 'vui', 'buon', 'lon', 'nho', 'cao', 'thap',
+            'nhanh', 'cham', 'dung', 'sai', 'dung', 'sach', 'rong', 'hep',
+            # Common nouns
+            'nha', 'truong', 'cong', 'xe', 'duong', 'thanh pho', 'que huong',
+            'nguoi', 'con', 'me', 'bo', 'anh', 'chi', 'em', 'ban', 'co',
+            'san pham', 'hang', 'tien', 'gia', 'mua', 'ban', 'lam viec',
+            # Question words
+            'gi', 'ai', 'o dau', 'sao', 'tai sao', 'khi nao', 'bao nhieu',
+            # With accents (common ones)
+            'và', 'mà', 'là', 'được', 'không', 'có', 'người', 'đi', 'đến', 'từ',
+            'trong', 'trên', 'dưới', 'sang', 'phải', 'trái', 'lên', 'xuống',
+            'như', 'nếu', 'thì', 'hay', 'hoặc', 'lúc', 'khi', 'sau', 'trước',
+            # Additional common words
+            'rat', 'rat', 'rất', 'cũng', 'cung', 'thì', 'thi', 'đây', 'day',
+            'đó', 'do', 'này', 'nay', 'kia', 'no', 'nó', 'ta', 'tao', 'mình',
+            'tôi', 'toi', 'ban', 'bạn', 'anh', 'chị', 'chi', 'em', 'ông', 'ba',
+            'họ', 'ho', 'chúng tôi', 'chung toi', 'chúng ta', 'chung ta'
+        }
 
-    # Check for Vietnamese content (basic check)
-    vietnamese_chars = 'àáảãạâầấẩẫậăằắẳẵặèéẻẽẹêềếểễệđìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵÀÁẢÃẠÂẦẤẨẪẬĂẰẮẲẴẶÈÉẺẼẸÊỀẾỂỄỆĐÌÍỈĨỊÒÓỎÕỌÔỒỐỔỖỘƠỜỚỞỠỢÙÚỦŨỤƯỪỨỬỮỰỲÝỶỸỴ'
-    has_vietnamese = any(char in text for char in vietnamese_chars)
+        text_lower = text.lower()
+        words = text_lower.split()
 
-    if not has_vietnamese and len(text) > 10:
-        return False, "⚠️ Không phát hiện ký tự tiếng Việt. Vui lòng nhập văn bản bằng tiếng Việt."
+        # Count Vietnamese words
+        vietnamese_word_count = 0
+        total_words = len(words)
 
-    return True, ""
+        for word in words:
+            # Remove punctuation for checking
+            clean_word = ''.join(c for c in word if c.isalnum())
+            if clean_word in vietnamese_words:
+                vietnamese_word_count += 1
+
+        # Consider Vietnamese if >20% words are Vietnamese (lowered threshold)
+        if total_words > 0:
+            vietnamese_ratio = vietnamese_word_count / total_words
+            return vietnamese_ratio >= 0.2  # Lowered threshold
+
+        return False
+
+    # Check for Vietnamese content
+    if not is_vietnamese_text(text) and len(text) > 10:
+        return False, "⚠️ Không phát hiện nội dung tiếng Việt. Vui lòng nhập văn bản bằng tiếng Việt."
+
+    return True, "✅ Văn bản hợp lệ!"
 
 # Export functions
 def export_to_csv(df):

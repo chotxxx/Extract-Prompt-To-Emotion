@@ -23,6 +23,16 @@ class RuleBasedSentiment:
             "kinh hoàng": -5, "kinh hoang": -5, "tồi tệ": -5, "toi te": -5, "đáng sợ": -4, "dang so": -4,
             "khủng khiếp": -5, "khung khiep": -5, "tiêu cực": -4, "tieu cuc": -4, "bất mãn": -3, "bat man": -3,
             "không hài lòng": -3, "khong hai long": -3,
+            # Additional conservative negative phrase entries found in failed patterns
+            "dịch vụ quá tồi": -4, "dich vu qua toi": -4,
+            "mua hàng khó khăn": -3, "mua hang kho khan": -3,
+            "giá cả quá cao": -3, "gia ca qua cao": -3,
+            "mua sắm mất thời gian": -3, "mua sam mat thoi gian": -3,
+            "sản phẩm tiêu cực": -4, "san pham tieu cuc": -4,
+            "không đáng tiền": -3, "khong dang tien": -3,
+            "không đáng": -2, "khong dang": -2,
+            "không dịch vụ": -3, "khong dich vu": -3,
+            "đồ đĩ": -5, "do di": -5,
             # Toxic/Profanity words (highly negative)
             "dcm": -5, "đcm": -5, "vl": -5, "vcl": -5, "cc": -5, "cl": -5, "địt": -5, "dit": -5,
             "chó": -4, "cho": -4, "mẹ": -4, "me": -4, "đồ ngu": -4, "do ngu": -4, "thằng ngu": -4, "thang ngu": -4,
@@ -65,13 +75,18 @@ class RuleBasedSentiment:
         # Intensifiers/Diminishers
         self.intensifiers = {"rất": 1.5, "cực kỳ": 2.0, "quá": 1.2, "hơi": 0.5, "khá": 1.2}
 
-        # Neutral indicators - expanded
-        self.neutral_indicators = {"?", "có", "là", "đã", "sẽ", "có thể", "nên", "tại", "ở", "từ", "đến", "như", "theo", "với", "cho",
-                                  "hoặc", "hoac", "hay", "tùy", "tuy", "có lẽ", "co le", "có thể", "co the", "tôi nghĩ", "toi nghi",
-                                  "bạn nghĩ", "ban nghi", "tôi tự hỏi", "toi tu hoi", "tôi không biết", "toi khong biet",
-                                  "trung lập", "trung lap", "bình thường", "binh thuong", "ổn thôi", "on thoi", "tương đối", "tuong doi",
-                                  "cũng được", "cung duoc", "không tệ", "khong te", "không tốt", "khong tot", "có lẫn không", "co lan khong",
-                                  "tích cực và", "tieu cuc va", "tốt nhưng", "tot nhung", "tuyệt vời nhưng", "tuyet voi nhung"}
+        # Neutral indicators - expanded (questions, filler, mild praise and filler phrases)
+        self.neutral_indicators = {
+            "?", "có", "là", "đã", "sẽ", "có thể", "nên", "tại", "ở", "từ", "đến", "như", "theo", "với", "cho",
+            "hoặc", "và", "nhưng", "mặc dù", "tuy nhiên",
+            # filler / neutral phrasing
+            "không có ý kiến", "không có ý kiến gì", "không sao", "ổn thôi", "ổn", "bình thường", "bình thường,", "trung lập", "được đấy", "cũng được", "cũng tạm", "tương đối ổn", "cũng tạm",
+            # mild descriptive phrases often labelled neutral in dataset
+            "sản phẩm", "dịch vụ", "chất lượng", "giao hàng", "hỗ trợ", "đáp ứng nhu cầu", "đáp ứng", "mua lại", "tôi sẽ mua lại",
+        }
+
+        # Contrastive connectors used for splitting clauses
+        self.contrastive_connectors = ["tuy nhiên", "nhưng", "mặc dù", "mặc dù vậy", "mà", "nhưng mà", "tuy", "dù", "mặc dù thế"]
 
     def is_neutral_context(self, text):
         """Check if text has neutral context indicators"""
@@ -80,6 +95,8 @@ class RuleBasedSentiment:
 
         # Count neutral indicators
         neutral_count = sum(1 for word in words if word in self.neutral_indicators)
+        # Also check neutral phrases anywhere in the text (e.g., 'sản phẩm', 'chất lượng')
+        neutral_phrase_present = any(phrase in text_lower for phrase in self.neutral_indicators)
 
         # Check for question marks
         question_mark = "?" in text
@@ -88,8 +105,14 @@ class RuleBasedSentiment:
         has_positive = False
         has_negative = False
 
+        positive_words = ["tốt", "tot", "hay", "tuyệt", "tuyet", "vui", "hạnh phúc", "hanh phuc", "yêu", "yeu", "thích", "thich", "đẹp", "dep", "xinh", "đáng yêu", "dang yeu", "thú vị", "thu vi", "hào hứng", "hao hung", "phấn khích", "phan khich", "kiên nhẫn", "kien nhan", "lạc quan", "lac quan", "tích cực", "tich cuc", "hài lòng", "hai long", "ưng ý", "ung y", "thoải mái", "thoai mai", "bình yên", "binh yen", "ổn định", "on dinh", "an toàn", "an toan", "tự hào", "tu hao", "hoàn hảo", "hoan hao", "xuất sắc", "xuat sac", "tinh tế", "tinh te", "tốt lành", "tot lanh"]
+        negative_words = ["tệ", "te", "xấu", "xau", "ghét", "ghet", "buồn", "buon", "tức giận", "tuc gian", "giận", "gian", "khó chịu", "kho chiu", "thất vọng", "that vong", "lo lắng", "lo lang", "sợ hãi", "so hai", "đau khổ", "dau kho", "tuyệt vọng", "tuyet vong", "căng thẳng", "cang thang", "mệt mỏi", "met moi", "chán nản", "chan nan", "phiền muộn", "phien muon", "bực bội", "buc boi", "cáu kỉnh", "cau kinh", "tức tối", "tuc toi", "điên tiết", "dien tiet", "khinh bỉ", "khinh bi", "ghê tởm", "ghe tom", "kinh hoàng", "kinh hoang", "tồi tệ", "toi te", "đáng sợ", "dang so", "khủng khiếp", "khung khiep", "tiêu cực", "tieu cuc", "bất mãn", "bat man", "không hài lòng", "khong hai long"]
+        pos_count = sum(1 for word in words if word in positive_words)
+        neg_count = sum(1 for word in words if word in negative_words)
+        mixed_sentiment = pos_count > 0 and neg_count > 0
+
         # Check phrases first (longer matches)
-        for length in range(min(3, len(words)), 0, -1):
+        for length in range(min(4, len(words)), 0, -1):
             for i in range(len(words) - length + 1):
                 phrase = ' '.join(words[i:i+length])
                 if phrase in self.sentiment_lexicon:
@@ -114,13 +137,91 @@ class RuleBasedSentiment:
         contrastives = ["nhưng", "tuy nhiên", "mặc dù", "hoặc", "hay", "tuy", "dù"]
         has_contrastive = any(contrastive in text_lower for contrastive in contrastives)
 
-        # Consider neutral if: many neutral words, question, mixed sentiment, contrastive, or long factual text
-        return (neutral_count >= 2 or question_mark or mixed_sentiment or has_contrastive or
-                len(words) > 12)  # Long descriptions often factual
+        # Nếu có nhiều neutral indicator, chỉ hiện diện phrase trung lập, dấu hỏi, hoặc câu rất dài => NEUTRAL
+        return (neutral_count >= 2 or neutral_phrase_present or question_mark or len(words) > 12)
+
+    def detect_mixed_sentiment(self, text):
+        """Return True if text contains both positive and negative signals (words/phrases).
+        We use lexicon phrases and additional heuristic lists for robustness (handles no-diacritic).
+        """
+        text_lower = text.lower()
+        words = text_lower.split()
+
+        # quick counts from lexicon
+        pos_count = 0
+        neg_count = 0
+
+        # check phrases first (longer matches)
+        for length in range(min(4, len(words)), 0, -1):
+            for i in range(len(words) - length + 1):
+                phrase = ' '.join(words[i:i+length])
+                if phrase in self.sentiment_lexicon:
+                    score = self.sentiment_lexicon[phrase]
+                    if score > 0:
+                        pos_count += 1
+                    elif score < 0:
+                        neg_count += 1
+
+        # check single words (fallback)
+        for w in words:
+            if w in self.sentiment_lexicon:
+                s = self.sentiment_lexicon[w]
+                if s > 0:
+                    pos_count += 1
+                elif s < 0:
+                    neg_count += 1
+
+        # conservative mixed detection: require both positive and negative signals in text
+        if pos_count > 0 and neg_count > 0:
+            # if counts similar or both >=1, treat as mixed
+            if abs(pos_count - neg_count) <= 1 or (pos_count >= 2 and neg_count >= 1) or (neg_count >= 2 and pos_count >= 1):
+                return True
+
+        # contrastive alone is not enough to mark as mixed; prefer to let clause-level logic decide
+        return False
+
+    def _clause_score(self, clause_text):
+        """Compute a simple clause-level lexicon score (no neutralization)."""
+        words = clause_text.lower().split()
+        score = 0.0
+        i = 0
+        while i < len(words):
+            # check 3-word phrases to single words
+            matched = False
+            for length in range(min(4, len(words) - i), 0, -1):
+                phrase = ' '.join(words[i:i+length])
+                if phrase in self.sentiment_lexicon:
+                    s = self.sentiment_lexicon[phrase]
+                    # simple negation if 'không' immediately before phrase
+                    if i - 1 >= 0 and words[i-1] in self.negations:
+                        s = -s
+                    score += s
+                    i += length
+                    matched = True
+                    break
+            if not matched:
+                i += 1
+        return score
+
+    def _post_contrast_clause_score(self, text):
+        """If there's a contrastive connector, return the score of the clause after it, else 0.0"""
+        text_lower = text.lower()
+        for conn in sorted(self.contrastive_connectors, key=lambda x: -len(x)):
+            if conn in text_lower:
+                parts = text_lower.split(conn, 1)
+                if len(parts) > 1:
+                    right = parts[1].strip()
+                    return self._clause_score(right)
+        return 0.0
 
     def analyze_sentiment(self, text):
         """Compute rule-based sentiment score S_Rule with improved negation handling"""
-        words = text.lower().split()
+        # Quick neutral/question heuristics
+        text_lower = text.lower()
+        if "?" in text or any(q in text_lower for q in ["có phải", "phải không", "bạn nghĩ", "bạn có", "bạn thấy", "bạn nghĩ thế nào"]):
+            return 0.0
+
+        words = text_lower.split()
         score = 0.0
         i = 0
         negation_scope = 0  # How many words negation affects
@@ -135,7 +236,7 @@ class RuleBasedSentiment:
             # Find the longest matching phrase starting from i
             phrase_score = None
             phrase_length = 0
-            for length in range(min(3, len(words) - i), 0, -1):  # from longest to shortest
+            for length in range(min(4, len(words) - i), 0, -1):  # from longest to shortest
                 phrase = ' '.join(words[i:i+length])
                 if phrase in self.sentiment_lexicon:
                     phrase_score = self.sentiment_lexicon[phrase]
@@ -158,6 +259,15 @@ class RuleBasedSentiment:
                 if words[i] in self.negations:
                     negation_scope = 3  # Affect next 3 words
                 i += 1
+
+        # If mixed sentiment detected, prefer neutralization
+        if self.detect_mixed_sentiment(text):
+            # If there is a strong sentiment after a contrastive connector, prefer that clause
+            post_score = self._post_contrast_clause_score(text)
+            if abs(post_score) >= 1.0:
+                return post_score
+            # otherwise set to zero so fusion will tend to prefer NEUTRAL in truly ambiguous cases
+            return 0.0
 
         # Adjust for neutral context - more aggressive reduction
         if self.is_neutral_context(text):

@@ -1,0 +1,111 @@
+Total failed entries: 51
+Label counts: {'NEUTRAL': 18, 'NEGATIVE': 19, 'POSITIVE': 14}
+
+Top unigrams:
+tôi: 13
+nó: 11
+sản: 11
+phẩm: 11
+này: 11
+rất: 10
+thích: 10
+lắm: 10
+không: 9
+dịch: 8
+vụ: 8
+đáng: 7
+tiền: 7
+bối: 7
+hoặc: 6
+đồ: 5
+đĩ: 5
+tốt: 5
+tiêu: 5
+cực: 5
+buồn: 4
+bã: 4
+và: 4
+bất: 4
+mãn: 4
+tuy: 3
+nhiên: 3
+khá: 3
+ổn: 3
+nghĩ: 3
+mua: 3
+gia: 3
+khủng: 2
+khiếp: 2
+hoàn: 2
+hảo: 2
+hài: 2
+lòng: 2
+tệ: 2
+qua: 2
+toi: 2
+hang: 2
+ca: 2
+khong: 2
+mặc: 1
+dù: 1
+đau: 1
+khổ: 1
+xuất: 1
+sắc: 1
+
+Top bigrams:
+sản phẩm: 11
+phẩm này: 11
+tôi thích: 10
+thích nó: 10
+nó lắm: 10
+dịch vụ: 8
+đáng tiền: 7
+tiền bối: 7
+đồ đĩ: 5
+này rất: 5
+rất tốt: 5
+này tiêu: 5
+tiêu cực: 5
+buồn bã: 4
+bất mãn: 4
+không đáng: 4
+vụ tôi: 4
+rất đáng: 3
+tuy nhiên: 3
+hoặc buồn: 3
+hoặc bất: 3
+vụ khá: 3
+khá ổn: 3
+tôi nghĩ: 3
+nghĩ đồ: 3
+lắm tuy: 2
+khủng khiếp: 2
+hoàn hảo: 2
+hảo hoặc: 2
+rất hài: 2
+hài lòng: 2
+tốt hoặc: 2
+tốt và: 2
+không dịch: 2
+mua hang: 2
+gia ca: 2
+nhiên khủng: 1
+lắm mặc: 1
+mặc dù: 1
+dù đau: 1
+đau khổ: 1
+lòng và: 1
+và bất: 1
+xuất sắc: 1
+sắc hoặc: 1
+lắm và: 1
+và khủng: 1
+tốt tuy: 1
+nhiên buồn: 1
+và thất: 1
+
+Suggested candidate phrases (conservative):
+không đáng tiền	4
+không dịch vụ	2
+không đáng	4
