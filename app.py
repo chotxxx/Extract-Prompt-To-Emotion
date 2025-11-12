@@ -286,9 +286,12 @@ with tab1:
 
                     # Rule-based
                     s_rule = rule_based.analyze_sentiment(processed_text)
+                    mixed_flag = rule_based.detect_mixed_sentiment(processed_text)
+                    neutral_flag = rule_based.is_neutral_context(processed_text)
+                    hedged_flag = rule_based.is_hedged(processed_text)
 
-                    # Fusion
-                    final_label, final_conf = fusion.fuse(l_phobert, c_phobert, s_rule)
+                    # Fusion (pass flags for hedging/neutral detection)
+                    final_label, final_conf = fusion.fuse(l_phobert, c_phobert, s_rule, mixed_flag=mixed_flag, neutral_flag=neutral_flag, hedged_flag=hedged_flag)
 
                     # Display results
                     if final_conf < confidence_threshold:

@@ -329,6 +329,26 @@ class RuleBasedSentiment:
         # contrastive alone is not enough to mark as mixed; prefer to let clause-level logic decide
         return False
 
+    def is_hedged(self, text):
+        """Detect hedging/neutral phrases that commonly indicate a non-committal sentiment.
+
+        Returns True if text contains common hedging cues (tương đối, nhìn chung, có lẽ, ổn thôi, cũng được, không tệ, etc.)
+        """
+        text_lower = text.lower()
+        hedges = [
+            "tương đối", "nhìn chung", "có lẽ", "co le", "ổn thôi", "on thoi", "cũng được", "cung duoc",
+            "cũng tạm", "cung tam", "không tệ", "khong te", "tạm ổn", "tam on", "được đấy", "duoc day",
+            "tôi nghĩ", "theo tôi", "hôm nay", "tương đối ổn", "tuong doi on"
+        ]
+        for h in hedges:
+            if h in text_lower:
+                return True
+        # Also treat short patterns like 'không ... quá' as hedging when no strong lexicon present
+        import re
+        if re.search(r"không .* quá", text_lower) or re.search(r"không .* thôi", text_lower):
+            return True
+        return False
+
     def _clause_score(self, clause_text):
         """Compute a simple clause-level lexicon score (no neutralization)."""
         words = clause_text.lower().split()

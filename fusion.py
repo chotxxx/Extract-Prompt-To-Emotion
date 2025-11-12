@@ -7,7 +7,7 @@ class ConditionalFusion:
         self.w_phobert = w_phobert
         self.w_rule = w_rule
 
-    def fuse(self, l_phobert, c_phobert, s_rule, mixed_flag=False, neutral_flag=False):
+    def fuse(self, l_phobert, c_phobert, s_rule, mixed_flag=False, neutral_flag=False, hedged_flag=False):
         """Conditional Fusion Algorithm with improved neutral handling.
 
         Args:
@@ -32,6 +32,14 @@ class ConditionalFusion:
         # (no early neutral override here) - fall through to normal cases
 
         # Case I: High DL Confidence - prioritize over neutral context
+        # Hedge override: if text is hedged/neutral and rule score is zero, prefer NEUTRAL
+        # unless PhoBERT is extremely confident (above a higher threshold)
+        if hedged_flag and abs(s_rule) < 0.05:
+            # allow PhoBERT to override only if very confident
+            hedged_override_threshold = max(self.t_high, 0.95)
+            if c_phobert < hedged_override_threshold:
+                return "NEUTRAL", 0.88
+
         if c_phobert >= self.t_high:
             return l_phobert, c_phobert  # Use PhoBERT
 

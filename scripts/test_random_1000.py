@@ -36,7 +36,8 @@ def test_random_1000_prompts():
         s_rule = rb.analyze_sentiment(text)
         mixed_flag = rb.detect_mixed_sentiment(text)
         neutral_flag = rb.is_neutral_context(text)
-        l_fusion, _ = fu.fuse(l_phobert, c_phobert, s_rule, mixed_flag=mixed_flag, neutral_flag=neutral_flag)
+        hedged_flag = rb.is_hedged(text)
+        l_fusion, _ = fu.fuse(l_phobert, c_phobert, s_rule, mixed_flag=mixed_flag, neutral_flag=neutral_flag, hedged_flag=hedged_flag)
 
         category_stats[expected]["total"] += 1
         if l_fusion == expected:
