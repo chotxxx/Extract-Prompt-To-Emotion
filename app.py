@@ -210,6 +210,47 @@ def load_models():
 
 preprocessor, phobert, rule_based, fusion = load_models()
 db = DBConnector()
+# Theme chooser: allow user to pick Dark / Light / System (System lets Streamlit use the config/default)
+if 'theme_choice' not in st.session_state:
+    # default to Dark which matches .streamlit/config.toml
+    st.session_state['theme_choice'] = 'Dark'
+
+def _get_theme_css(choice):
+    if choice is None or choice.lower().startswith('system'):
+        return ""
+    if choice.lower().startswith('dark'):
+        return '''
+        <style>
+        .stApp, .css-1d391kg, .main, .block-container {
+            background-color: #0f1115 !important;
+            color: #F0F2F5 !important;
+        }
+        .stButton>button, .stDownloadButton>button {
+            background-color: #1f77b4 !important;
+            color: white !important;
+        }
+        </style>
+        '''
+    # light
+    return '''
+    <style>
+    .stApp, .css-1d391kg, .main, .block-container {
+        background-color: #FFFFFF !important;
+        color: #000000 !important;
+    }
+    .stButton>button, .stDownloadButton>button {
+        background-color: #1f77b4 !important;
+        color: white !important;
+    }
+    </style>
+    '''
+
+# Sidebar theme selector for immediate choice
+with st.sidebar.expander("Giao diện (Theme)", expanded=False):
+    theme_choice = st.selectbox("Chọn giao diện:", ["Dark", "Light", "System"], index=0, key='theme_choice')
+    css = _get_theme_css(theme_choice)
+    if css:
+        st.markdown(css, unsafe_allow_html=True)
 
 st.title("Phân loại cảm xúc tiếng Việt")
 
