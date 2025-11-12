@@ -29,6 +29,8 @@ class ConditionalFusion:
             label = "POSITIVE" if s_rule > 0 else "NEGATIVE"
             return label, abs(s_rule) / 5.0  # Normalize confidence
 
+        # (no early neutral override here) - fall through to normal cases
+
         # Case I: High DL Confidence - prioritize over neutral context
         if c_phobert >= self.t_high:
             return l_phobert, c_phobert  # Use PhoBERT
