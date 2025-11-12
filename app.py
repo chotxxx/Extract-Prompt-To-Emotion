@@ -213,7 +213,8 @@ db = DBConnector()
 
 st.title("Phân loại cảm xúc tiếng Việt")
 
-tab1, tab2 = st.tabs(["Phân loại Cảm xúc", "Lịch sử Phân loại"])
+# Three tabs: Classification, History, and a Help/Guide page
+tab1, tab2, tab3 = st.tabs(["Phân loại Cảm xúc", "Lịch sử Phân loại", "Hướng dẫn"])
 
 with tab1:
     st.header("Phân loại Cảm xúc")
@@ -397,3 +398,67 @@ with tab2:
         
     else:
         st.write("Chưa có lịch sử.")
+
+with tab3:
+    st.header("Hướng dẫn sử dụng ứng dụng")
+    st.markdown(
+        """
+        Chào mừng bạn tới phần hướng dẫn. Phần này mô tả nhanh cách sử dụng các tính năng chính của ứng dụng:
+
+        1. Nhập prompt để phân loại cảm xúc
+           - Gõ/ dán câu tiếng Việt vào ô "Nhập câu tiếng Việt" ở tab **Phân loại Cảm xúc**.
+           - Ứng dụng hỗ trợ cả văn bản có dấu và không dấu.
+           - Ví dụ mẫu:
+             - `Hôm nay không vui cũng không buồn`
+             - `Sản phẩm này tương đối ổn thôi`
+
+        2. Tra cứu lịch sử
+           - Mở tab **Lịch sử Phân loại** để xem các bản ghi đã lưu.
+           - Sử dụng ô tìm kiếm để lọc theo `Input`, `Processed` hoặc `Label`.
+
+        3. Nhập / Xuất dữ liệu (CSV / JSON / HTML / ICS)
+           - Ở tab **Lịch sử Phân loại** bạn có thể xuất dữ liệu đã lọc bằng các nút "Xuất CSV/JSON/HTML/ICS".
+           - Để nhập dữ liệu từ file, dùng phần "Nhập dữ liệu" và chọn file CSV hoặc JSON.
+
+        4. Thay đổi giao diện (Theme)
+           - Mở biểu tượng bánh răng (Settings) trên góc phải Streamlit → Appearance → Choose app theme.
+           - Chọn Light / Dark / System tuỳ ý.
+
+        5. Fork & Star repo GitHub
+           - Nếu bạn muốn fork hoặc star dự án, nhấn vào liên kết GitHub bên dưới để tới trang repo.
+        """
+    )
+
+    st.subheader("Ví dụ prompt mẫu")
+    example_prompts = """
+Hôm nay không vui cũng không buồn
+Sản phẩm này tương đối ổn thôi
+Hôm nay công việc ổn định
+Không tốt lắm
+"""
+    st.code(example_prompts, language='text')
+
+    st.subheader("Tải mẫu file dữ liệu lịch sử (CSV / JSON)")
+    # Create a tiny sample dataframe
+    sample = {
+        'Input': ["Hôm nay không vui cũng không buồn"],
+        'Processed': ["hom nay khong vui cung khong buon"],
+        'Label': ["NEUTRAL"],
+        'Confidence': [0.9],
+        'Timestamp': [pd.Timestamp.now().strftime('%Y-%m-%d %H:%M:%S')]
+    }
+    sample_df = pd.DataFrame(sample)
+    csv_sample = export_to_csv(sample_df)
+    json_sample = export_to_json(sample_df)
+
+    col_a, col_b = st.columns(2)
+    with col_a:
+        st.download_button("Tải CSV mẫu", data=csv_sample, file_name="sample_history.csv", mime="text/csv")
+    with col_b:
+        st.download_button("Tải JSON mẫu", data=json_sample, file_name="sample_history.json", mime="application/json")
+
+    st.subheader("GitHub")
+    st.markdown("Nếu bạn thấy dự án hữu ích, hãy fork hoặc star repo:")
+    repo_url = "https://github.com/d0ngle8k/Extract-Prompt-To-Emotion"
+    st.markdown(f"[Mở repo trên GitHub]({repo_url})")
+    st.info("Lưu ý: ứng dụng không thể tự động fork hoặc star repo — bạn sẽ được dẫn tới trang GitHub để thực hiện.")
