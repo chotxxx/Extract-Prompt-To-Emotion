@@ -1,0 +1,299 @@
+Theo tôi điên tiết thôi	NEGATIVE	NEUTRAL	0.67
+Hôm nay tiêu cực đấy	NEGATIVE	POSITIVE	0.92
+Nhìn chung chất lượng cao	POSITIVE	NEUTRAL	0.81
+Tôi nghĩ tự hào quá	POSITIVE	NEGATIVE	0.53
+Hôm nay tích cực	POSITIVE	NEUTRAL	0.49
+Nhìn chung sức khỏe bình thường	NEUTRAL	NEGATIVE	0.90
+Tôi nghĩ đáng sợ lắm	NEGATIVE	POSITIVE	0.99
+Hôm nay bình yên mà	POSITIVE	NEUTRAL	0.80
+Theo tôi tương đối ổn quá	NEUTRAL	POSITIVE	0.94
+Theo tôi cáu kỉnh	NEGATIVE	NEUTRAL	0.77
+Nhìn chung không tốt quá	NEUTRAL	NEGATIVE	0.99
+Tôi nghĩ kiên nhẫn thôi	POSITIVE	NEUTRAL	0.86
+Theo tôi đáng sợ quá	NEGATIVE	POSITIVE	0.97
+Tôi nghĩ dịch vụ nghiệp dư mà	NEGATIVE	NEUTRAL	0.51
+Có lẽ tự hào quá	POSITIVE	NEGATIVE	0.96
+Có lẽ khủng khiếp quá	NEGATIVE	POSITIVE	0.98
+Hôm nay dịch vụ nghiệp dư	NEGATIVE	NEUTRAL	0.90
+Nhìn chung không tệ đấy	NEUTRAL	NEGATIVE	0.99
+Tôi nghĩ khủng khiếp lắm	NEGATIVE	POSITIVE	0.99
+Có lẽ không tốt mà	NEUTRAL	NEGATIVE	0.96
+Có lẽ dịch vụ ổn đấy	NEUTRAL	POSITIVE	0.79
+Tôi nghĩ bạn bè xa cách lắm	NEGATIVE	NEUTRAL	0.87
+môi trường làm việc bình thường mà	NEUTRAL	NEGATIVE	0.73
+chất lượng bình thường quá	NEUTRAL	NEGATIVE	0.89
+Hôm nay cơ hội phát triển ít lắm	NEGATIVE	NEUTRAL	0.69
+Hôm nay chất lượng cao mà	POSITIVE	NEUTRAL	0.67
+Theo tôi căng thẳng thôi	NEGATIVE	NEUTRAL	0.74
+cũng được đấy	NEUTRAL	POSITIVE	0.65
+bình yên thôi	POSITIVE	NEUTRAL	0.88
+Nhìn chung công việc ổn định thôi	POSITIVE	NEUTRAL	0.76
+trò chơi nhàm	NEGATIVE	POSITIVE	0.98
+Tôi nghĩ công nghệ tiên tiến quá	POSITIVE	NEUTRAL	0.91
+Tôi nghĩ hỗ trợ khách hàng tốt thôi	POSITIVE	NEUTRAL	0.83
+Theo tôi tích cực quá	POSITIVE	NEGATIVE	0.61
+Tôi nghĩ không tốt thôi	NEUTRAL	NEGATIVE	0.96
+Tôi nghĩ trò chơi nhàm mà	NEGATIVE	NEUTRAL	0.59
+Có lẽ văn hóa doanh nghiệp tích cực lắm	POSITIVE	NEUTRAL	0.62
+Có lẽ đáng sợ quá	NEGATIVE	POSITIVE	0.53
+Hôm nay trung lập quá	NEUTRAL	POSITIVE	0.72
+Nhìn chung gia đình bình thường đấy	NEUTRAL	POSITIVE	0.94
+bình yên đấy	POSITIVE	NEUTRAL	0.72
+xuất sắc quá	POSITIVE	NEGATIVE	0.98
+Có lẽ chất lượng cao đấy	POSITIVE	NEUTRAL	0.81
+Có lẽ tích cực	POSITIVE	NEUTRAL	0.85
+Nhìn chung không tệ mà	NEUTRAL	NEGATIVE	0.50
+tiêu cực mà	NEGATIVE	NEUTRAL	0.56
+Có lẽ tích cực thôi	POSITIVE	NEUTRAL	0.91
+tương đối ổn thôi	NEUTRAL	POSITIVE	0.92
+Hôm nay sức khỏe tốt mà	POSITIVE	NEUTRAL	0.90
+Hôm nay không tệ	NEUTRAL	POSITIVE	0.70
+Theo tôi lạc quan lắm	POSITIVE	NEGATIVE	0.93
+Tôi nghĩ ổn định thôi	POSITIVE	NEUTRAL	0.84
+Hôm nay công việc ổn định thôi	POSITIVE	NEUTRAL	0.70
+Theo tôi tương đối ổn quá	NEUTRAL	POSITIVE	0.94
+Theo tôi lo lắng mà	NEGATIVE	NEUTRAL	0.89
+Nhìn chung lạc quan quá	POSITIVE	NEGATIVE	0.99
+Có lẽ phấn khích quá	POSITIVE	NEUTRAL	0.87
+Hôm nay bình yên thôi	POSITIVE	NEUTRAL	0.86
+Hôm nay không tốt quá	NEUTRAL	NEGATIVE	0.99
+Nhìn chung đáng sợ	NEGATIVE	POSITIVE	0.97
+Có lẽ xuất sắc	POSITIVE	NEUTRAL	0.90
+Có lẽ công nghệ tiên tiến	POSITIVE	NEUTRAL	0.89
+Theo tôi gia đình bình thường đấy	NEUTRAL	POSITIVE	0.75
+Theo tôi bạn bè xa cách lắm	NEGATIVE	NEUTRAL	0.89
+Theo tôi văn hóa doanh nghiệp tích cực quá	POSITIVE	NEGATIVE	0.97
+Tôi nghĩ giáo viên nghiêm khắc đấy	NEGATIVE	NEUTRAL	0.68
+tương đối ổn thôi	NEUTRAL	POSITIVE	0.92
+Theo tôi công việc ổn định mà	POSITIVE	NEUTRAL	0.57
+Nhìn chung bình yên lắm	POSITIVE	NEUTRAL	0.65
+Tôi nghĩ tương đối ổn thôi	NEUTRAL	POSITIVE	0.67
+Tôi nghĩ nguy hiểm	NEGATIVE	NEUTRAL	0.82
+Có lẽ không tốt mà	NEUTRAL	NEGATIVE	0.96
+không tệ	NEUTRAL	POSITIVE	0.90
+Theo tôi mệt mỏi mà	NEGATIVE	NEUTRAL	0.90
+Hôm nay cũng được đấy	NEUTRAL	POSITIVE	0.79
+Có lẽ văn hóa doanh nghiệp tích cực lắm	POSITIVE	NEUTRAL	0.62
+Có lẽ cơ hội phát triển quá	POSITIVE	NEGATIVE	0.94
+Hôm nay không tốt thôi	NEUTRAL	NEGATIVE	0.98
+Có lẽ chất lượng cao quá	POSITIVE	NEGATIVE	0.58
+Theo tôi lạc quan đấy	POSITIVE	NEGATIVE	0.93
+Theo tôi gia đình bất hòa thôi	NEGATIVE	NEUTRAL	0.73
+Tôi nghĩ tích cực quá	POSITIVE	NEGATIVE	0.65
+Theo tôi đáng sợ mà	NEGATIVE	POSITIVE	0.95
+Hôm nay bạn bè xa cách đấy	NEGATIVE	NEUTRAL	0.85
+Theo tôi lạc quan thôi	POSITIVE	NEUTRAL	0.89
+Hôm nay cáu kỉnh mà	NEGATIVE	NEUTRAL	0.54
+Hôm nay gia đình bình thường lắm	NEUTRAL	POSITIVE	0.76
+Tôi nghĩ cơ hội phát triển quá	POSITIVE	NEGATIVE	0.96
+Có lẽ khủng khiếp lắm	NEGATIVE	POSITIVE	0.99
+Nhìn chung kiên nhẫn quá	POSITIVE	NEUTRAL	0.73
+Có lẽ phúc lợi tốt thôi	POSITIVE	NEUTRAL	0.56
+Tôi nghĩ đào tạo chuyên nghiệp lắm	POSITIVE	NEUTRAL	0.71
+Theo tôi đáng sợ	NEGATIVE	POSITIVE	0.99
+phấn khích mà	POSITIVE	NEGATIVE	0.98
+trò chơi nhàm đấy	NEGATIVE	POSITIVE	0.99
+Nhìn chung bình yên đấy	POSITIVE	NEUTRAL	0.79
+Theo tôi bạn bè xa cách đấy	NEGATIVE	NEUTRAL	0.89
+Theo tôi lạc quan thôi	POSITIVE	NEUTRAL	0.89
+tương đối ổn quá	NEUTRAL	POSITIVE	0.98
+công việc ổn định mà	POSITIVE	NEUTRAL	0.65
+Hôm nay không tệ đấy	NEUTRAL	POSITIVE	0.52
+Tôi nghĩ tương đối ổn thôi	NEUTRAL	POSITIVE	0.67
+tích cực thôi	POSITIVE	NEUTRAL	0.84
+Hôm nay bình yên đấy	POSITIVE	NEUTRAL	0.66
+Tôi nghĩ âm nhạc du dương thôi	POSITIVE	NEUTRAL	0.75
+Hôm nay tiêu cực mà	NEGATIVE	NEUTRAL	0.65
+Hôm nay dịch vụ chuyên nghiệp mà	POSITIVE	NEGATIVE	0.98
+Có lẽ gia đình bình thường	NEUTRAL	POSITIVE	0.60
+Hôm nay mệt mỏi	NEGATIVE	NEUTRAL	0.85
+Nhìn chung kiên nhẫn quá	POSITIVE	NEUTRAL	0.73
+Có lẽ sức khỏe tốt đấy	POSITIVE	NEUTRAL	0.57
+Có lẽ tích cực lắm	POSITIVE	NEGATIVE	0.76
+Tôi nghĩ phấn khích lắm	POSITIVE	NEUTRAL	0.70
+không tốt	NEUTRAL	NEGATIVE	0.99
+Nhìn chung sản phẩm bình thường quá	NEUTRAL	NEGATIVE	0.90
+Có lẽ bất ổn thôi	NEGATIVE	NEUTRAL	0.61
+Có lẽ ổn định quá	POSITIVE	NEUTRAL	0.69
+Hôm nay được đấy đấy	NEUTRAL	POSITIVE	0.82
+Có lẽ bình yên quá	POSITIVE	NEUTRAL	0.84
+Hôm nay kiên nhẫn thôi	POSITIVE	NEUTRAL	0.53
+Hôm nay bình yên mà	POSITIVE	NEUTRAL	0.80
+Có lẽ ổn định thôi	POSITIVE	NEUTRAL	0.87
+lo lắng quá	NEGATIVE	NEUTRAL	0.77
+Tôi nghĩ lạc quan thôi	POSITIVE	NEUTRAL	0.90
+Theo tôi giá cả hợp lý thôi	POSITIVE	NEUTRAL	0.75
+Có lẽ mệt mỏi quá	NEGATIVE	NEUTRAL	0.87
+Nhìn chung khủng khiếp đấy	NEGATIVE	POSITIVE	0.99
+bạn bè xa cách mà	NEGATIVE	NEUTRAL	0.88
+đáng sợ lắm	NEGATIVE	POSITIVE	0.56
+Theo tôi không tốt lắm	NEUTRAL	NEGATIVE	0.98
+Theo tôi nhân viên bình thường quá	NEUTRAL	NEGATIVE	0.93
+tương đối ổn	NEUTRAL	POSITIVE	0.98
+không tốt thôi	NEUTRAL	NEGATIVE	0.99
+Hôm nay tương đối ổn thôi	NEUTRAL	POSITIVE	0.93
+Hôm nay khủng khiếp lắm	NEGATIVE	POSITIVE	0.99
+đào tạo bình thường quá	NEUTRAL	NEGATIVE	0.95
+Theo tôi giá cả cao thôi	NEGATIVE	NEUTRAL	0.88
+Nhìn chung kiên nhẫn quá	POSITIVE	NEUTRAL	0.73
+Có lẽ bạn bè xa cách thôi	NEGATIVE	NEUTRAL	0.89
+Tôi nghĩ tiêu cực thôi	NEGATIVE	NEUTRAL	0.91
+Hôm nay tích cực quá	POSITIVE	NEGATIVE	0.84
+Tôi nghĩ âm nhạc du dương mà	POSITIVE	NEUTRAL	0.88
+Theo tôi văn hóa doanh nghiệp bình thường quá	NEUTRAL	NEGATIVE	0.86
+cũng được đấy	NEUTRAL	POSITIVE	0.65
+Có lẽ lạc quan thôi	POSITIVE	NEUTRAL	0.88
+Tôi nghĩ công việc ổn định mà	POSITIVE	NEUTRAL	0.63
+tiêu cực đấy	NEGATIVE	POSITIVE	0.88
+Có lẽ tương đối ổn thôi	NEUTRAL	POSITIVE	0.74
+Hôm nay tương đối ổn đấy	NEUTRAL	POSITIVE	0.99
+Hôm nay cáu kỉnh	NEGATIVE	POSITIVE	0.95
+Có lẽ văn hóa doanh nghiệp tích cực lắm	POSITIVE	NEUTRAL	0.62
+Tôi nghĩ bình yên thôi	POSITIVE	NEUTRAL	0.86
+Tôi nghĩ đào tạo chuyên nghiệp lắm	POSITIVE	NEUTRAL	0.71
+phấn khích mà	POSITIVE	NEGATIVE	0.98
+Hôm nay văn hóa doanh nghiệp tích cực quá	POSITIVE	NEGATIVE	0.87
+Có lẽ sản phẩm bình thường quá	NEUTRAL	NEGATIVE	0.81
+Theo tôi khủng khiếp quá	NEGATIVE	POSITIVE	0.99
+Hôm nay khủng khiếp lắm	NEGATIVE	POSITIVE	0.99
+Hôm nay được đấy lắm	NEUTRAL	POSITIVE	0.88
+Nhìn chung tự hào thôi	POSITIVE	NEUTRAL	0.84
+Nhìn chung tự hào lắm	POSITIVE	NEUTRAL	0.90
+Nhìn chung lạc quan lắm	POSITIVE	NEGATIVE	0.99
+Hôm nay gia đình bình thường đấy	NEUTRAL	POSITIVE	0.82
+tiêu cực mà	NEGATIVE	NEUTRAL	0.56
+Nhìn chung tiêu cực thôi	NEGATIVE	POSITIVE	0.55
+Tôi nghĩ sức khỏe tốt quá	POSITIVE	NEUTRAL	0.91
+Theo tôi ổn định đấy	POSITIVE	NEUTRAL	0.59
+Có lẽ dịch vụ ổn lắm	NEUTRAL	POSITIVE	0.83
+ổn định đấy	POSITIVE	NEUTRAL	0.52
+Có lẽ tương đối ổn quá	NEUTRAL	POSITIVE	0.94
+Tôi nghĩ dịch vụ ổn quá	NEUTRAL	POSITIVE	0.85
+Có lẽ cơ hội phát triển ít thôi	NEGATIVE	NEUTRAL	0.82
+Có lẽ sức khỏe bình thường quá	NEUTRAL	NEGATIVE	0.58
+không tệ mà	NEUTRAL	POSITIVE	0.69
+Theo tôi không tốt	NEUTRAL	NEGATIVE	0.99
+kiên nhẫn quá	POSITIVE	NEUTRAL	0.78
+Hôm nay được đấy	NEUTRAL	POSITIVE	0.77
+Tôi nghĩ giáo viên tận tâm thôi	POSITIVE	NEUTRAL	0.86
+Có lẽ căng thẳng quá	NEGATIVE	NEUTRAL	0.88
+Hôm nay không tốt đấy	NEUTRAL	NEGATIVE	0.99
+Theo tôi ổn định	POSITIVE	NEUTRAL	0.60
+phúc lợi bình thường đấy	NEUTRAL	POSITIVE	0.80
+Có lẽ không tốt quá	NEUTRAL	NEGATIVE	0.99
+không tốt đấy	NEUTRAL	NEGATIVE	0.99
+cơ hội phát triển lắm	POSITIVE	NEUTRAL	0.88
+Hôm nay tích cực thôi	POSITIVE	NEUTRAL	0.88
+Hôm nay lo lắng	NEGATIVE	NEUTRAL	0.89
+Nhìn chung giá cả cao thôi	NEGATIVE	NEUTRAL	0.55
+Theo tôi khủng khiếp	NEGATIVE	POSITIVE	0.99
+Có lẽ phúc lợi tốt thôi	POSITIVE	NEUTRAL	0.56
+Có lẽ mệt mỏi đấy	NEGATIVE	NEUTRAL	0.90
+Hôm nay cũng được đấy	NEUTRAL	POSITIVE	0.79
+công việc ổn định mà	POSITIVE	NEUTRAL	0.65
+Theo tôi tương đối ổn mà	NEUTRAL	POSITIVE	0.92
+Nhìn chung sức khỏe bình thường lắm	NEUTRAL	NEGATIVE	0.96
+Nhìn chung bình yên mà	POSITIVE	NEUTRAL	0.87
+Theo tôi trò chơi nhàm	NEGATIVE	POSITIVE	0.98
+Có lẽ bạn bè xa cách lắm	NEGATIVE	NEUTRAL	0.88
+chất lượng cao lắm	POSITIVE	NEUTRAL	0.66
+Tôi nghĩ tương đối ổn lắm	NEUTRAL	POSITIVE	0.93
+Tôi nghĩ dịch vụ bình thường quá	NEUTRAL	NEGATIVE	0.61
+Có lẽ giáo viên nghiêm khắc	NEGATIVE	POSITIVE	0.74
+Nhìn chung bình yên quá	POSITIVE	NEUTRAL	0.82
+Theo tôi khủng khiếp mà	NEGATIVE	POSITIVE	0.99
+Hôm nay sách nhàm chán thôi	NEGATIVE	POSITIVE	0.98
+Có lẽ sức khỏe bình thường quá	NEUTRAL	NEGATIVE	0.58
+sức khỏe bình thường lắm	NEUTRAL	NEGATIVE	0.89
+Hôm nay không tốt thôi	NEUTRAL	NEGATIVE	0.98
+Hôm nay được đấy đấy	NEUTRAL	POSITIVE	0.82
+Hôm nay bình yên mà	POSITIVE	NEUTRAL	0.80
+Có lẽ không tốt lắm	NEUTRAL	NEGATIVE	0.99
+Theo tôi môi trường làm việc bình thường đấy	NEUTRAL	NEGATIVE	0.52
+Hôm nay mệt mỏi mà	NEGATIVE	NEUTRAL	0.84
+Theo tôi đáng sợ lắm	NEGATIVE	POSITIVE	0.99
+Tôi nghĩ giao hàng chậm	NEGATIVE	NEUTRAL	0.51
+Có lẽ lạc quan đấy	POSITIVE	NEGATIVE	0.90
+được đấy quá	NEUTRAL	POSITIVE	0.96
+Nhìn chung lo lắng	NEGATIVE	NEUTRAL	0.89
+Hôm nay ổn định lắm	POSITIVE	NEUTRAL	0.55
+môi trường làm việc bình thường quá	NEUTRAL	NEGATIVE	0.92
+bình thường quá	NEUTRAL	NEGATIVE	0.61
+Có lẽ đáng sợ	NEGATIVE	POSITIVE	0.75
+Theo tôi cơ hội phát triển thôi	POSITIVE	NEUTRAL	0.90
+Theo tôi kiên nhẫn mà	POSITIVE	NEUTRAL	0.79
+cáu kỉnh	NEGATIVE	POSITIVE	0.75
+sức khỏe bình thường mà	NEUTRAL	NEGATIVE	0.88
+giáo viên nghiêm khắc thôi	NEGATIVE	NEUTRAL	0.88
+Nhìn chung sức khỏe bình thường quá	NEUTRAL	NEGATIVE	0.98
+Nhìn chung khủng khiếp mà	NEGATIVE	POSITIVE	0.98
+Có lẽ tiêu cực đấy	NEGATIVE	NEUTRAL	0.87
+Theo tôi văn hóa doanh nghiệp tiêu cực đấy	NEGATIVE	NEUTRAL	0.88
+Theo tôi đáng sợ đấy	NEGATIVE	POSITIVE	0.99
+Theo tôi lạc quan thôi	POSITIVE	NEUTRAL	0.89
+Hôm nay tiêu cực đấy	NEGATIVE	POSITIVE	0.92
+Tôi nghĩ tương đối ổn thôi	NEUTRAL	POSITIVE	0.67
+Hôm nay căng thẳng mà	NEGATIVE	POSITIVE	0.76
+Hôm nay trung lập đấy	NEUTRAL	POSITIVE	0.66
+Hôm nay tiêu cực mà	NEGATIVE	NEUTRAL	0.65
+Nhìn chung phim hay lắm thôi	POSITIVE	NEUTRAL	0.87
+Nhìn chung dịch vụ nghiệp dư đấy	NEGATIVE	NEUTRAL	0.62
+bình yên	POSITIVE	NEUTRAL	0.75
+Có lẽ bình yên thôi	POSITIVE	NEUTRAL	0.89
+Có lẽ tích cực lắm	POSITIVE	NEGATIVE	0.76
+công việc ổn định lắm	POSITIVE	NEUTRAL	0.71
+Nhìn chung không tệ đấy	NEUTRAL	NEGATIVE	0.99
+Nhìn chung tương đối ổn thôi	NEUTRAL	POSITIVE	0.93
+Nhìn chung cơ hội phát triển thôi	POSITIVE	NEUTRAL	0.90
+Tôi nghĩ cơ hội phát triển thôi	POSITIVE	NEUTRAL	0.90
+Theo tôi tương đối ổn đấy	NEUTRAL	POSITIVE	0.98
+Theo tôi tích cực thôi	POSITIVE	NEUTRAL	0.87
+thiết kế bình thường quá	NEUTRAL	NEGATIVE	0.96
+dịch vụ ổn lắm	NEUTRAL	POSITIVE	0.92
+Theo tôi tích cực quá	POSITIVE	NEGATIVE	0.61
+Có lẽ cơ hội phát triển đấy	POSITIVE	NEUTRAL	0.91
+Theo tôi tiêu cực mà	NEGATIVE	POSITIVE	0.92
+môi trường làm việc tốt thôi	POSITIVE	NEUTRAL	0.90
+sức khỏe tốt thôi	POSITIVE	NEUTRAL	0.90
+Theo tôi cáu kỉnh	NEGATIVE	NEUTRAL	0.77
+Tôi nghĩ phấn khích đấy	POSITIVE	NEGATIVE	0.74
+Theo tôi văn hóa doanh nghiệp tiêu cực thôi	NEGATIVE	NEUTRAL	0.91
+Hôm nay văn hóa doanh nghiệp tiêu cực đấy	NEGATIVE	NEUTRAL	0.76
+Nhìn chung công nghệ tiên tiến quá	POSITIVE	NEUTRAL	0.89
+Có lẽ không tốt quá	NEUTRAL	NEGATIVE	0.99
+Theo tôi cũng được quá	NEUTRAL	POSITIVE	0.57
+Có lẽ tương đối ổn lắm	NEUTRAL	POSITIVE	0.97
+Nhìn chung văn hóa doanh nghiệp tiêu cực	NEGATIVE	NEUTRAL	0.91
+Có lẽ cơ hội phát triển thôi	POSITIVE	NEUTRAL	0.91
+Hôm nay gia đình bất hòa thôi	NEGATIVE	NEUTRAL	0.56
+Có lẽ cáu kỉnh quá	NEGATIVE	NEUTRAL	0.85
+Có lẽ dịch vụ chuyên nghiệp mà	POSITIVE	NEGATIVE	0.70
+sức khỏe bình thường mà	NEUTRAL	NEGATIVE	0.88
+Tôi nghĩ sức khỏe tốt quá	POSITIVE	NEUTRAL	0.91
+Nhìn chung cáu kỉnh đấy	NEGATIVE	POSITIVE	0.87
+Có lẽ gia đình bình thường quá	NEUTRAL	POSITIVE	0.49
+trung lập lắm	NEUTRAL	POSITIVE	0.51
+Tôi nghĩ tương đối ổn lắm	NEUTRAL	POSITIVE	0.93
+Theo tôi tiêu cực	NEGATIVE	NEUTRAL	0.89
+Tôi nghĩ sức khỏe tốt thôi	POSITIVE	NEUTRAL	0.91
+Theo tôi được đấy đấy	NEUTRAL	POSITIVE	0.69
+Hôm nay tự hào	POSITIVE	NEUTRAL	0.91
+Hôm nay không tốt thôi	NEUTRAL	NEGATIVE	0.98
+Tôi nghĩ tích cực	POSITIVE	NEUTRAL	0.64
+Có lẽ đáng sợ quá	NEGATIVE	POSITIVE	0.53
+Nhìn chung văn hóa doanh nghiệp tiêu cực	NEGATIVE	NEUTRAL	0.91
+Nhìn chung không tốt quá	NEUTRAL	NEGATIVE	0.99
+Hôm nay chất lượng cao mà	POSITIVE	NEUTRAL	0.67
+Tôi nghĩ tự hào mà	POSITIVE	NEUTRAL	0.86
+Nhìn chung mệt mỏi thôi	NEGATIVE	NEUTRAL	0.53
+Hôm nay lạc quan lắm	POSITIVE	NEGATIVE	0.93
+phim hay lắm thôi	POSITIVE	NEUTRAL	0.81
+Tôi nghĩ ổn định đấy	POSITIVE	NEUTRAL	0.68
+Theo tôi không tốt	NEUTRAL	NEGATIVE	0.99
+Tôi nghĩ chất lượng cao	POSITIVE	NEUTRAL	0.89
+Theo tôi khủng khiếp	NEGATIVE	POSITIVE	0.99
+Hôm nay tức tối quá	NEGATIVE	NEUTRAL	0.50
+Theo tôi cơ hội phát triển ít thôi	NEGATIVE	NEUTRAL	0.62
+không tốt đấy	NEUTRAL	NEGATIVE	0.99
+Nhìn chung bạn bè xa cách quá	NEGATIVE	NEUTRAL	0.89
+Có lẽ khủng khiếp lắm	NEGATIVE	POSITIVE	0.99

@@ -1,0 +1,1000 @@
+công việc khó khăn mà	NEGATIVE
+Có lẽ trò chơi thú vị đấy	POSITIVE
+Nhìn chung an toàn thôi	POSITIVE
+Theo tôi điên tiết thôi	NEGATIVE
+Theo tôi hỗ trợ khách hàng tốt mà	POSITIVE
+Theo tôi dịch vụ kém mà	NEGATIVE
+Tôi nghĩ du lịch tuyệt vời	POSITIVE
+Có lẽ an toàn	POSITIVE
+Tôi nghĩ lương thưởng thấp đấy	NEGATIVE
+Có lẽ đáng yêu mà	POSITIVE
+Hôm nay chất lượng thấp quá	NEGATIVE
+Hôm nay bực bội quá	NEGATIVE
+Theo tôi nguy hiểm mà	NEGATIVE
+Hôm nay tiêu cực đấy	NEGATIVE
+đào tạo bình thường thôi	NEUTRAL
+Nhìn chung môi trường làm việc tốt lắm	POSITIVE
+Nhìn chung chất lượng cao	POSITIVE
+Tôi nghĩ dịch vụ bình thường mà	NEUTRAL
+Theo tôi xuất sắc mà	POSITIVE
+Theo tôi dịch vụ tuyệt vời	POSITIVE
+Theo tôi bất ổn đấy	NEGATIVE
+Nhìn chung ứng dụng bình thường lắm	NEUTRAL
+Tôi nghĩ thiết kế xấu	NEGATIVE
+Tôi nghĩ ghê tởm mà	NEGATIVE
+Hôm nay hài lòng đấy	POSITIVE
+Có lẽ thời tiết đẹp quá	POSITIVE
+Tôi nghĩ tự hào quá	POSITIVE
+trải nghiệm bình thường	NEUTRAL
+Nhìn chung hài lòng thôi	POSITIVE
+Hôm nay tích cực	POSITIVE
+Hôm nay tồi tệ	NEGATIVE
+Hôm nay an toàn mà	POSITIVE
+Có lẽ gia đình hạnh phúc	POSITIVE
+Nhìn chung sức khỏe bình thường	NEUTRAL
+Theo tôi tồi tệ lắm	NEGATIVE
+Có lẽ công nghệ lỗi thời quá	NEGATIVE
+Nhìn chung sản phẩm tệ đấy	NEGATIVE
+Theo tôi tốt lành	POSITIVE
+Theo tôi ổn định quá	POSITIVE
+Tôi nghĩ ứng dụng bình thường mà	NEUTRAL
+Có lẽ kinh hoàng đấy	NEGATIVE
+Nhìn chung bất mãn đấy	NEGATIVE
+Tôi nghĩ đáng sợ lắm	NEGATIVE
+Hôm nay an toàn	POSITIVE
+Hôm nay bình yên mà	POSITIVE
+Theo tôi tương đối ổn quá	NEUTRAL
+Hôm nay văn hóa doanh nghiệp bình thường	NEUTRAL
+Theo tôi cáu kỉnh	NEGATIVE
+Nhìn chung không tốt quá	NEUTRAL
+hoàn hảo mà	POSITIVE
+Nhìn chung âm nhạc du dương đấy	POSITIVE
+Hôm nay môi trường làm việc bình thường mà	NEUTRAL
+Tôi nghĩ kiên nhẫn thôi	POSITIVE
+Hôm nay buồn bã quá	NEGATIVE
+Hôm nay tôi rất buồn thôi	NEGATIVE
+Theo tôi đáng sợ quá	NEGATIVE
+bất mãn thôi	NEGATIVE
+Tôi nghĩ dịch vụ nghiệp dư mà	NEGATIVE
+Có lẽ tự hào quá	POSITIVE
+Có lẽ khủng khiếp quá	NEGATIVE
+Hôm nay dịch vụ nghiệp dư	NEGATIVE
+Nhìn chung không tệ đấy	NEUTRAL
+Tôi nghĩ khủng khiếp lắm	NEGATIVE
+Tôi nghĩ dịch vụ tuyệt vời đấy	POSITIVE
+Có lẽ không tốt mà	NEUTRAL
+Theo tôi môi trường làm việc bình thường	NEUTRAL
+món ăn tạm mà	NEUTRAL
+Có lẽ dịch vụ ổn đấy	NEUTRAL
+du lịch bình thường	NEUTRAL
+Tôi nghĩ ứng dụng khó sử dụng thôi	NEGATIVE
+Tôi nghĩ bạn bè xa cách lắm	NEGATIVE
+Hôm nay âm nhạc bình thường thôi	NEUTRAL
+nhân viên bình thường lắm	NEUTRAL
+Tôi nghĩ giáo viên bình thường quá	NEUTRAL
+Hôm nay thời tiết bình thường đấy	NEUTRAL
+Nhìn chung giao hàng nhanh	POSITIVE
+đào tạo kém lắm	NEGATIVE
+Nhìn chung đáng yêu thôi	POSITIVE
+Hôm nay lương thưởng bình thường lắm	NEUTRAL
+Tôi nghĩ buồn bã	NEGATIVE
+môi trường làm việc bình thường mà	NEUTRAL
+chất lượng bình thường quá	NEUTRAL
+Theo tôi du lịch tuyệt vời mà	POSITIVE
+Hôm nay cơ hội phát triển ít lắm	NEGATIVE
+an toàn	POSITIVE
+Có lẽ cũng được	NEUTRAL
+Hôm nay chất lượng cao mà	POSITIVE
+Tôi nghĩ gia đình hạnh phúc thôi	POSITIVE
+Nhìn chung trung lập quá	NEUTRAL
+Theo tôi bực bội	NEGATIVE
+Theo tôi căng thẳng thôi	NEGATIVE
+Có lẽ trung lập mà	NEUTRAL
+Tôi nghĩ sản phẩm bình thường quá	NEUTRAL
+Theo tôi môi trường làm việc xấu đấy	NEGATIVE
+Hôm nay thoải mái quá	POSITIVE
+Nhìn chung tôi rất vui thôi	POSITIVE
+cũng được đấy	NEUTRAL
+bình yên thôi	POSITIVE
+Nhìn chung công việc ổn định thôi	POSITIVE
+công nghệ bình thường đấy	NEUTRAL
+trò chơi nhàm	NEGATIVE
+lương thưởng hấp dẫn lắm	POSITIVE
+âm nhạc khó nghe đấy	NEGATIVE
+Theo tôi ứng dụng bình thường mà	NEUTRAL
+Tôi nghĩ công nghệ tiên tiến quá	POSITIVE
+Theo tôi không tệ đấy	NEUTRAL
+Tôi nghĩ âm nhạc du dương quá	POSITIVE
+Có lẽ giao hàng chậm mà	NEGATIVE
+Tôi nghĩ không tệ quá	NEUTRAL
+Có lẽ thú vị	POSITIVE
+Có lẽ âm nhạc bình thường đấy	NEUTRAL
+Tôi nghĩ hỗ trợ khách hàng tốt thôi	POSITIVE
+Tôi nghĩ tinh tế quá	POSITIVE
+Hôm nay dịch vụ bình thường đấy	NEUTRAL
+Có lẽ công nghệ bình thường quá	NEUTRAL
+Tôi nghĩ không hài lòng đấy	NEGATIVE
+Theo tôi tích cực quá	POSITIVE
+Có lẽ hỗ trợ khách hàng tốt	POSITIVE
+Tôi nghĩ không tốt thôi	NEUTRAL
+Có lẽ được đấy mà	NEUTRAL
+Theo tôi phim trung bình đấy	NEUTRAL
+Có lẽ âm nhạc bình thường thôi	NEUTRAL
+Theo tôi chất lượng thấp	NEGATIVE
+Theo tôi du lịch thất vọng quá	NEGATIVE
+ghê tởm lắm	NEGATIVE
+ổn định quá	POSITIVE
+công nghệ lỗi thời lắm	NEGATIVE
+Nhìn chung hỗ trợ khách hàng kém thôi	NEGATIVE
+Tôi nghĩ môi trường làm việc xấu lắm	NEGATIVE
+Hôm nay được đấy thôi	NEUTRAL
+Nhìn chung chán nản lắm	NEGATIVE
+Tôi nghĩ trò chơi nhàm mà	NEGATIVE
+Theo tôi đáng yêu mà	POSITIVE
+Tôi nghĩ âm nhạc khó nghe	NEGATIVE
+Có lẽ văn hóa doanh nghiệp tích cực lắm	POSITIVE
+Theo tôi lương thưởng hấp dẫn mà	POSITIVE
+Có lẽ tồi tệ quá	NEGATIVE
+Có lẽ đáng sợ quá	NEGATIVE
+Tôi nghĩ thú vị đấy	POSITIVE
+Có lẽ công nghệ bình thường quá	NEUTRAL
+Hôm nay trung lập quá	NEUTRAL
+Nhìn chung gia đình bình thường đấy	NEUTRAL
+Tôi nghĩ thoải mái mà	POSITIVE
+phúc lợi kém đấy	NEGATIVE
+Theo tôi thú vị đấy	POSITIVE
+bình yên đấy	POSITIVE
+sách hay	POSITIVE
+Theo tôi gia đình hạnh phúc lắm	POSITIVE
+xuất sắc quá	POSITIVE
+Có lẽ chất lượng cao đấy	POSITIVE
+Có lẽ môi trường làm việc xấu lắm	NEGATIVE
+Nhìn chung lương thưởng bình thường mà	NEUTRAL
+Có lẽ tích cực	POSITIVE
+Nhìn chung không tệ mà	NEUTRAL
+tiêu cực mà	NEGATIVE
+Có lẽ tích cực thôi	POSITIVE
+Hôm nay hoàn hảo quá	POSITIVE
+Theo tôi tốt lành	POSITIVE
+tương đối ổn thôi	NEUTRAL
+Nhìn chung giá cả bình thường quá	NEUTRAL
+Theo tôi trải nghiệm tuyệt vời đấy	POSITIVE
+Hôm nay sức khỏe tốt mà	POSITIVE
+phim trung bình đấy	NEUTRAL
+âm nhạc bình thường thôi	NEUTRAL
+Có lẽ giao hàng chậm lắm	NEGATIVE
+Có lẽ cũng được mà	NEUTRAL
+Có lẽ tốt lành lắm	POSITIVE
+Có lẽ trải nghiệm tệ quá	NEGATIVE
+Theo tôi không tệ đấy	NEUTRAL
+Theo tôi phim dở quá	NEGATIVE
+Tôi nghĩ lương thưởng bình thường quá	NEUTRAL
+tốt lành lắm	POSITIVE
+Nhìn chung sản phẩm bình thường thôi	NEUTRAL
+tốt lành quá	POSITIVE
+Theo tôi cũng được mà	NEUTRAL
+Theo tôi ghê tởm thôi	NEGATIVE
+Nhìn chung bất mãn thôi	NEGATIVE
+Có lẽ bất ổn quá	NEGATIVE
+trải nghiệm tệ thôi	NEGATIVE
+Hôm nay ổn định mà	POSITIVE
+Hôm nay không tệ	NEUTRAL
+Có lẽ tinh tế mà	POSITIVE
+Theo tôi trải nghiệm tuyệt vời lắm	POSITIVE
+Hôm nay buồn bã lắm	NEGATIVE
+Tôi nghĩ du lịch thất vọng mà	NEGATIVE
+Có lẽ không tệ đấy	NEUTRAL
+Nhìn chung giao hàng chậm đấy	NEGATIVE
+Hôm nay nhân viên thân thiện mà	POSITIVE
+Theo tôi lạc quan lắm	POSITIVE
+Tôi nghĩ ổn định thôi	POSITIVE
+Nhìn chung kinh hoàng mà	NEGATIVE
+Hôm nay công việc ổn định thôi	POSITIVE
+ghê tởm thôi	NEGATIVE
+Hôm nay cũng tạm thôi	NEUTRAL
+Tôi nghĩ sản phẩm tệ	NEGATIVE
+Hôm nay âm nhạc khó nghe quá	NEGATIVE
+Có lẽ cũng tạm mà	NEUTRAL
+Theo tôi tương đối ổn quá	NEUTRAL
+Theo tôi lo lắng mà	NEGATIVE
+Nhìn chung lạc quan quá	POSITIVE
+Có lẽ phấn khích quá	POSITIVE
+Theo tôi món ăn khó ăn quá	NEGATIVE
+Hôm nay bình yên thôi	POSITIVE
+Hôm nay không tốt quá	NEUTRAL
+Theo tôi bất mãn đấy	NEGATIVE
+phiền muộn mà	NEGATIVE
+Có lẽ dịch vụ ổn thôi	NEUTRAL
+Theo tôi xuất sắc lắm	POSITIVE
+Nhìn chung đáng sợ	NEGATIVE
+Có lẽ xuất sắc	POSITIVE
+Hôm nay bình yên lắm	POSITIVE
+Có lẽ công nghệ tiên tiến	POSITIVE
+Tôi nghĩ trung lập	NEUTRAL
+Theo tôi gia đình bình thường đấy	NEUTRAL
+Theo tôi bạn bè xa cách lắm	NEGATIVE
+Theo tôi văn hóa doanh nghiệp tích cực quá	POSITIVE
+nguy hiểm	NEGATIVE
+trải nghiệm tuyệt vời mà	POSITIVE
+Tôi nghĩ nhân viên thô lỗ đấy	NEGATIVE
+Nhìn chung lương thưởng thấp quá	NEGATIVE
+Có lẽ hỗ trợ khách hàng tốt thôi	POSITIVE
+Nhìn chung thời tiết bình thường đấy	NEUTRAL
+Hôm nay điên tiết	NEGATIVE
+Tôi nghĩ giáo viên nghiêm khắc đấy	NEGATIVE
+Theo tôi ưng ý thôi	POSITIVE
+Hôm nay cũng tạm thôi	NEUTRAL
+Nhìn chung thời tiết đẹp quá	POSITIVE
+Hôm nay sách bình thường thôi	NEUTRAL
+tương đối ổn thôi	NEUTRAL
+Nhìn chung sách hay đấy	POSITIVE
+Theo tôi công việc ổn định mà	POSITIVE
+Nhìn chung dịch vụ kém quá	NEGATIVE
+Nhìn chung bình yên lắm	POSITIVE
+Theo tôi tôi rất buồn thôi	NEGATIVE
+Hôm nay cũng được thôi	NEUTRAL
+Có lẽ tức tối mà	NEGATIVE
+Nhìn chung phúc lợi bình thường quá	NEUTRAL
+Nhìn chung thoải mái đấy	POSITIVE
+Nhìn chung thời tiết xấu	NEGATIVE
+Hôm nay hoàn hảo thôi	POSITIVE
+Tôi nghĩ tương đối ổn thôi	NEUTRAL
+Hôm nay cơ hội phát triển ít quá	NEGATIVE
+Tôi nghĩ ứng dụng khó sử dụng mà	NEGATIVE
+Tôi nghĩ nguy hiểm	NEGATIVE
+Tôi nghĩ thời tiết xấu đấy	NEGATIVE
+hài lòng quá	POSITIVE
+điên tiết thôi	NEGATIVE
+Hôm nay hài lòng thôi	POSITIVE
+Hôm nay hỗ trợ khách hàng bình thường	NEUTRAL
+bạn bè bình thường quá	NEUTRAL
+Theo tôi đào tạo kém mà	NEGATIVE
+Có lẽ công nghệ lỗi thời thôi	NEGATIVE
+Có lẽ không tốt mà	NEUTRAL
+không tệ	NEUTRAL
+Theo tôi mệt mỏi mà	NEGATIVE
+Hôm nay cũng được đấy	NEUTRAL
+Có lẽ dịch vụ ổn thôi	NEUTRAL
+đáng sợ	NEGATIVE
+Nhìn chung phiền muộn đấy	NEGATIVE
+phúc lợi tốt	POSITIVE
+Có lẽ văn hóa doanh nghiệp tích cực lắm	POSITIVE
+Nhìn chung chán nản đấy	NEGATIVE
+Có lẽ cơ hội phát triển quá	POSITIVE
+sách bình thường quá	NEUTRAL
+Hôm nay công nghệ bình thường quá	NEUTRAL
+Có lẽ phúc lợi kém quá	NEGATIVE
+Có lẽ kiên nhẫn lắm	POSITIVE
+Theo tôi phim dở	NEGATIVE
+Theo tôi trung lập quá	NEUTRAL
+Hôm nay không tốt thôi	NEUTRAL
+Nhìn chung môi trường làm việc xấu lắm	NEGATIVE
+Hôm nay tinh tế	POSITIVE
+Có lẽ cũng được quá	NEUTRAL
+Tôi nghĩ ứng dụng dễ sử dụng quá	POSITIVE
+Tôi nghĩ âm nhạc du dương lắm	POSITIVE
+Có lẽ cũng tạm đấy	NEUTRAL
+Có lẽ chất lượng cao quá	POSITIVE
+Nhìn chung thoải mái	POSITIVE
+Tôi nghĩ văn hóa doanh nghiệp tích cực đấy	POSITIVE
+Theo tôi lạc quan đấy	POSITIVE
+Có lẽ được đấy đấy	NEUTRAL
+Nhìn chung tôi rất vui mà	POSITIVE
+Theo tôi gia đình bất hòa thôi	NEGATIVE
+Nhìn chung thoải mái quá	POSITIVE
+Tôi nghĩ tích cực quá	POSITIVE
+Có lẽ trải nghiệm tuyệt vời thôi	POSITIVE
+dịch vụ tuyệt vời quá	POSITIVE
+Theo tôi phim hay lắm	POSITIVE
+Hôm nay kiên nhẫn	POSITIVE
+Hôm nay trải nghiệm bình thường	NEUTRAL
+Tôi nghĩ giá cả bình thường	NEUTRAL
+Tôi nghĩ hào hứng	POSITIVE
+hỗ trợ khách hàng tốt quá	POSITIVE
+Theo tôi đáng sợ mà	NEGATIVE
+Hôm nay bạn bè xa cách đấy	NEGATIVE
+Hôm nay bực bội đấy	NEGATIVE
+Theo tôi lạc quan thôi	POSITIVE
+điên tiết quá	NEGATIVE
+Hôm nay hỗ trợ khách hàng kém thôi	NEGATIVE
+Nhìn chung dịch vụ bình thường thôi	NEUTRAL
+Hôm nay bạn bè thân thiện đấy	POSITIVE
+Có lẽ sách nhàm chán lắm	NEGATIVE
+Tôi nghĩ tinh tế quá	POSITIVE
+Hôm nay tồi tệ	NEGATIVE
+Theo tôi văn hóa doanh nghiệp bình thường	NEUTRAL
+Nhìn chung nhân viên thô lỗ đấy	NEGATIVE
+Hôm nay cáu kỉnh mà	NEGATIVE
+Hôm nay gia đình bình thường lắm	NEUTRAL
+Tôi nghĩ cơ hội phát triển quá	POSITIVE
+Có lẽ khủng khiếp lắm	NEGATIVE
+Nhìn chung xuất sắc thôi	POSITIVE
+Tôi nghĩ trải nghiệm tệ thôi	NEGATIVE
+dịch vụ nghiệp dư mà	NEGATIVE
+Nhìn chung kiên nhẫn quá	POSITIVE
+Có lẽ phúc lợi tốt thôi	POSITIVE
+Hôm nay hạnh phúc đấy	POSITIVE
+Có lẽ bất mãn đấy	NEGATIVE
+Hôm nay bất ổn đấy	NEGATIVE
+Theo tôi cũng được lắm	NEUTRAL
+Theo tôi cáu kỉnh quá	NEGATIVE
+Tôi nghĩ đào tạo chuyên nghiệp lắm	POSITIVE
+Theo tôi đáng sợ	NEGATIVE
+Nhìn chung tinh tế lắm	POSITIVE
+Có lẽ được đấy đấy	NEUTRAL
+hào hứng mà	POSITIVE
+phiền muộn	NEGATIVE
+Có lẽ trò chơi bình thường thôi	NEUTRAL
+phấn khích mà	POSITIVE
+Có lẽ hoàn hảo	POSITIVE
+Theo tôi an toàn đấy	POSITIVE
+Hôm nay công việc ổn định	POSITIVE
+Hôm nay gia đình hạnh phúc	POSITIVE
+Hôm nay cũng tạm lắm	NEUTRAL
+Hôm nay trò chơi bình thường thôi	NEUTRAL
+Tôi nghĩ phúc lợi bình thường	NEUTRAL
+Theo tôi nhân viên bình thường lắm	NEUTRAL
+Hôm nay du lịch bình thường đấy	NEUTRAL
+trò chơi nhàm đấy	NEGATIVE
+Có lẽ trung lập thôi	NEUTRAL
+Nhìn chung bình yên đấy	POSITIVE
+Theo tôi bạn bè xa cách đấy	NEGATIVE
+Theo tôi lạc quan thôi	POSITIVE
+Theo tôi giáo viên tận tâm lắm	POSITIVE
+tương đối ổn quá	NEUTRAL
+dịch vụ ổn thôi	NEUTRAL
+Theo tôi ưng ý thôi	POSITIVE
+Theo tôi hoàn hảo	POSITIVE
+Có lẽ phim trung bình thôi	NEUTRAL
+công việc ổn định mà	POSITIVE
+Hôm nay nhân viên thân thiện quá	POSITIVE
+Có lẽ giao hàng chậm mà	NEGATIVE
+Hôm nay cũng tạm lắm	NEUTRAL
+Có lẽ chất lượng bình thường đấy	NEUTRAL
+Nhìn chung trải nghiệm tệ mà	NEGATIVE
+nhân viên thô lỗ	NEGATIVE
+Nhìn chung lương thưởng bình thường mà	NEUTRAL
+Có lẽ tức tối đấy	NEGATIVE
+Hôm nay không tệ đấy	NEUTRAL
+Tôi nghĩ cũng được mà	NEUTRAL
+Có lẽ món ăn ngon	POSITIVE
+Hôm nay dịch vụ bình thường đấy	NEUTRAL
+Nhìn chung dịch vụ bình thường mà	NEUTRAL
+hỗ trợ khách hàng kém đấy	NEGATIVE
+Có lẽ gia đình bất hòa thôi	NEGATIVE
+Tôi nghĩ tương đối ổn thôi	NEUTRAL
+Hôm nay sách hay	POSITIVE
+Nhìn chung cơ hội phát triển bình thường mà	NEUTRAL
+Theo tôi du lịch bình thường	NEUTRAL
+tích cực thôi	POSITIVE
+Hôm nay bình yên đấy	POSITIVE
+sản phẩm lỗi mà	NEGATIVE
+Tôi nghĩ âm nhạc du dương thôi	POSITIVE
+Theo tôi phim trung bình mà	NEUTRAL
+hài lòng đấy	POSITIVE
+Theo tôi nhân viên thân thiện thôi	POSITIVE
+Theo tôi không tệ	NEUTRAL
+ghê tởm	NEGATIVE
+Có lẽ trải nghiệm bình thường lắm	NEUTRAL
+Hôm nay tiêu cực mà	NEGATIVE
+Nhìn chung nhân viên bình thường đấy	NEUTRAL
+Theo tôi bất mãn lắm	NEGATIVE
+Có lẽ thú vị đấy	POSITIVE
+Hôm nay dịch vụ chuyên nghiệp mà	POSITIVE
+Có lẽ gia đình bình thường	NEUTRAL
+Tôi nghĩ giá cả cao	NEGATIVE
+Hôm nay mệt mỏi	NEGATIVE
+Có lẽ tức tối quá	NEGATIVE
+Tôi nghĩ cơ hội phát triển bình thường thôi	NEUTRAL
+Nhìn chung kiên nhẫn quá	POSITIVE
+Nhìn chung văn hóa doanh nghiệp tiêu cực quá	NEGATIVE
+Nhìn chung món ăn tạm thôi	NEUTRAL
+món ăn ngon quá	POSITIVE
+tinh tế đấy	POSITIVE
+Có lẽ sức khỏe tốt đấy	POSITIVE
+Nhìn chung cơ hội phát triển	POSITIVE
+Có lẽ điên tiết	NEGATIVE
+Có lẽ tích cực lắm	POSITIVE
+Có lẽ trung lập lắm	NEUTRAL
+Theo tôi chán nản đấy	NEGATIVE
+Có lẽ giáo viên tận tâm đấy	POSITIVE
+Nhìn chung tức tối mà	NEGATIVE
+Theo tôi phúc lợi tốt đấy	POSITIVE
+Có lẽ được đấy thôi	NEUTRAL
+Tôi nghĩ phấn khích lắm	POSITIVE
+không tốt	NEUTRAL
+Tôi nghĩ bạn bè thân thiện quá	POSITIVE
+Theo tôi gia đình bất hòa lắm	NEGATIVE
+Hôm nay văn hóa doanh nghiệp bình thường lắm	NEUTRAL
+Có lẽ thời tiết bình thường thôi	NEUTRAL
+Nhìn chung sản phẩm bình thường quá	NEUTRAL
+Có lẽ bất ổn thôi	NEGATIVE
+Nhìn chung hài lòng với sản phẩm quá	POSITIVE
+Hôm nay bạn bè bình thường lắm	NEUTRAL
+Hôm nay thú vị thôi	POSITIVE
+Có lẽ ổn định quá	POSITIVE
+Nhìn chung trải nghiệm bình thường quá	NEUTRAL
+Có lẽ công nghệ bình thường thôi	NEUTRAL
+Có lẽ chất lượng thấp quá	NEGATIVE
+Hôm nay được đấy mà	NEUTRAL
+Tôi nghĩ văn hóa doanh nghiệp bình thường	NEUTRAL
+Hôm nay đáng yêu quá	POSITIVE
+Hôm nay được đấy đấy	NEUTRAL
+Hôm nay bất mãn mà	NEGATIVE
+Theo tôi giao hàng nhanh lắm	POSITIVE
+Có lẽ bình yên quá	POSITIVE
+Có lẽ sản phẩm bình thường mà	NEUTRAL
+Theo tôi giáo viên bình thường lắm	NEUTRAL
+Theo tôi ứng dụng khó sử dụng quá	NEGATIVE
+Hôm nay kiên nhẫn thôi	POSITIVE
+Theo tôi du lịch thất vọng mà	NEGATIVE
+Có lẽ lương thưởng hấp dẫn	POSITIVE
+Hôm nay cũng tạm mà	NEUTRAL
+Theo tôi dịch vụ bình thường mà	NEUTRAL
+Hôm nay bình yên mà	POSITIVE
+Có lẽ sức khỏe kém quá	NEGATIVE
+Nhìn chung thời tiết xấu thôi	NEGATIVE
+Tôi nghĩ tồi tệ	NEGATIVE
+Có lẽ ổn định thôi	POSITIVE
+lo lắng quá	NEGATIVE
+Nhìn chung hài lòng mà	POSITIVE
+Nhìn chung bạn bè bình thường mà	NEUTRAL
+Hôm nay nhân viên thân thiện đấy	POSITIVE
+Tôi nghĩ lạc quan thôi	POSITIVE
+ưng ý lắm	POSITIVE
+Theo tôi giá cả hợp lý thôi	POSITIVE
+Theo tôi công việc khó khăn đấy	NEGATIVE
+Có lẽ mệt mỏi quá	NEGATIVE
+Hôm nay văn hóa doanh nghiệp tiêu cực lắm	NEGATIVE
+Theo tôi công nghệ lỗi thời mà	NEGATIVE
+Nhìn chung khủng khiếp đấy	NEGATIVE
+bạn bè xa cách mà	NEGATIVE
+Hôm nay dịch vụ tuyệt vời mà	POSITIVE
+Nhìn chung hoàn hảo quá	POSITIVE
+Hôm nay sức khỏe bình thường lắm	NEUTRAL
+Hôm nay đào tạo kém	NEGATIVE
+Nhìn chung sản phẩm tốt mà	POSITIVE
+hỗ trợ khách hàng kém mà	NEGATIVE
+Có lẽ tinh tế đấy	POSITIVE
+vui vẻ thôi	POSITIVE
+Theo tôi cũng tạm quá	NEUTRAL
+Tôi nghĩ xuất sắc mà	POSITIVE
+Theo tôi cơ hội phát triển bình thường mà	NEUTRAL
+hỗ trợ khách hàng bình thường mà	NEUTRAL
+Nhìn chung âm nhạc du dương	POSITIVE
+đáng sợ lắm	NEGATIVE
+Nhìn chung phúc lợi tốt	POSITIVE
+Có lẽ hoàn hảo thôi	POSITIVE
+Theo tôi không tốt lắm	NEUTRAL
+Nhìn chung ứng dụng khó sử dụng đấy	NEGATIVE
+Theo tôi bực bội mà	NEGATIVE
+Hôm nay thú vị lắm	POSITIVE
+Có lẽ bất mãn quá	NEGATIVE
+Theo tôi nhân viên bình thường quá	NEUTRAL
+hạnh phúc quá	POSITIVE
+Có lẽ sức khỏe bình thường lắm	NEUTRAL
+tương đối ổn	NEUTRAL
+Nhìn chung thời tiết xấu đấy	NEGATIVE
+Nhìn chung được đấy quá	NEUTRAL
+không tốt thôi	NEUTRAL
+Tôi nghĩ trung lập lắm	NEUTRAL
+Hôm nay đáng yêu mà	POSITIVE
+Hôm nay tương đối ổn thôi	NEUTRAL
+Tôi nghĩ phúc lợi bình thường đấy	NEUTRAL
+Nhìn chung bạn bè bình thường	NEUTRAL
+Hôm nay thời tiết bình thường thôi	NEUTRAL
+Có lẽ cũng được mà	NEUTRAL
+Nhìn chung phúc lợi kém đấy	NEGATIVE
+Tôi nghĩ dịch vụ kém mà	NEGATIVE
+Có lẽ công việc ổn	NEUTRAL
+Nhìn chung cũng được thôi	NEUTRAL
+Có lẽ tốt lành lắm	POSITIVE
+bực bội thôi	NEGATIVE
+Hôm nay khủng khiếp lắm	NEGATIVE
+Hôm nay sản phẩm bình thường lắm	NEUTRAL
+Hôm nay tiêu cực quá	NEGATIVE
+Tôi nghĩ lương thưởng bình thường đấy	NEUTRAL
+Có lẽ hỗ trợ khách hàng bình thường đấy	NEUTRAL
+đào tạo bình thường quá	NEUTRAL
+Theo tôi giá cả cao thôi	NEGATIVE
+Nhìn chung kiên nhẫn quá	POSITIVE
+Nhìn chung an toàn	POSITIVE
+Có lẽ bạn bè xa cách thôi	NEGATIVE
+sản phẩm tệ mà	NEGATIVE
+Theo tôi ứng dụng bình thường đấy	NEUTRAL
+Có lẽ âm nhạc bình thường	NEUTRAL
+Tôi nghĩ tiêu cực thôi	NEGATIVE
+Theo tôi nhân viên bình thường	NEUTRAL
+Có lẽ hài lòng với sản phẩm	POSITIVE
+Có lẽ du lịch tuyệt vời thôi	POSITIVE
+phúc lợi bình thường quá	NEUTRAL
+Theo tôi sản phẩm tệ đấy	NEGATIVE
+Nhìn chung bực bội quá	NEGATIVE
+Hôm nay tích cực quá	POSITIVE
+Nhìn chung giáo viên tận tâm mà	POSITIVE
+Nhìn chung tốt lành	POSITIVE
+Tôi nghĩ âm nhạc du dương mà	POSITIVE
+Tôi nghĩ đào tạo bình thường quá	NEUTRAL
+Nhìn chung phúc lợi tốt quá	POSITIVE
+Tôi nghĩ sản phẩm lỗi quá	NEGATIVE
+vui vẻ mà	POSITIVE
+Tôi nghĩ món ăn khó ăn thôi	NEGATIVE
+Theo tôi du lịch thất vọng thôi	NEGATIVE
+Có lẽ âm nhạc du dương	POSITIVE
+Nhìn chung chán nản lắm	NEGATIVE
+Theo tôi văn hóa doanh nghiệp bình thường quá	NEUTRAL
+cũng được đấy	NEUTRAL
+Nhìn chung trải nghiệm tệ đấy	NEGATIVE
+không tệ lắm	NEUTRAL
+Có lẽ lạc quan thôi	POSITIVE
+Tôi nghĩ công việc ổn định mà	POSITIVE
+Có lẽ an toàn mà	POSITIVE
+Nhìn chung bạn bè thân thiện thôi	POSITIVE
+Theo tôi an toàn quá	POSITIVE
+tiêu cực đấy	NEGATIVE
+Có lẽ thú vị thôi	POSITIVE
+Tôi nghĩ thú vị	POSITIVE
+Theo tôi chất lượng bình thường thôi	NEUTRAL
+Tôi nghĩ thời tiết xấu quá	NEGATIVE
+Có lẽ tương đối ổn thôi	NEUTRAL
+Hôm nay tương đối ổn đấy	NEUTRAL
+Hôm nay cáu kỉnh	NEGATIVE
+Tôi nghĩ không tệ thôi	NEUTRAL
+Có lẽ hoàn hảo đấy	POSITIVE
+tồi tệ	NEGATIVE
+Tôi nghĩ sản phẩm bình thường quá	NEUTRAL
+Theo tôi tinh tế quá	POSITIVE
+Hôm nay tồi tệ thôi	NEGATIVE
+Theo tôi tiêu cực lắm	NEGATIVE
+Có lẽ văn hóa doanh nghiệp tích cực lắm	POSITIVE
+văn hóa doanh nghiệp bình thường	NEUTRAL
+Hôm nay thời tiết bình thường	NEUTRAL
+Tôi nghĩ bình yên thôi	POSITIVE
+Có lẽ tồi tệ mà	NEGATIVE
+Tôi nghĩ hỗ trợ khách hàng bình thường thôi	NEUTRAL
+Tôi nghĩ giáo viên bình thường	NEUTRAL
+Tôi nghĩ đào tạo chuyên nghiệp lắm	POSITIVE
+Theo tôi hoàn hảo lắm	POSITIVE
+phúc lợi bình thường mà	NEUTRAL
+ổn thôi	NEUTRAL
+Nhìn chung sức khỏe kém quá	NEGATIVE
+Có lẽ cũng được thôi	NEUTRAL
+món ăn tạm đấy	NEUTRAL
+phấn khích mà	POSITIVE
+Tôi nghĩ phúc lợi bình thường thôi	NEUTRAL
+Hôm nay văn hóa doanh nghiệp tích cực quá	POSITIVE
+Có lẽ sản phẩm bình thường quá	NEUTRAL
+Theo tôi khủng khiếp quá	NEGATIVE
+Hôm nay trải nghiệm tệ thôi	NEGATIVE
+khinh bỉ lắm	NEGATIVE
+Có lẽ phim trung bình	NEUTRAL
+Hôm nay dịch vụ nghiệp dư đấy	NEGATIVE
+Nhìn chung phúc lợi tốt mà	POSITIVE
+Hôm nay tôi rất vui lắm	POSITIVE
+Có lẽ hài lòng với sản phẩm quá	POSITIVE
+Hôm nay khủng khiếp lắm	NEGATIVE
+Hôm nay được đấy lắm	NEUTRAL
+Nhìn chung tự hào thôi	POSITIVE
+Nhìn chung tự hào lắm	POSITIVE
+Nhìn chung lạc quan lắm	POSITIVE
+Có lẽ âm nhạc khó nghe mà	NEGATIVE
+Nhìn chung an toàn mà	POSITIVE
+Có lẽ bất ổn mà	NEGATIVE
+Hôm nay gia đình bình thường đấy	NEUTRAL
+Hôm nay cũng tạm mà	NEUTRAL
+tiêu cực mà	NEGATIVE
+Nhìn chung tiêu cực thôi	NEGATIVE
+thời tiết đẹp lắm	POSITIVE
+Tôi nghĩ sức khỏe tốt quá	POSITIVE
+Tôi nghĩ không tệ mà	NEUTRAL
+Theo tôi ổn định đấy	POSITIVE
+Có lẽ dịch vụ ổn lắm	NEUTRAL
+Có lẽ công nghệ lỗi thời quá	NEGATIVE
+Theo tôi hoàn hảo thôi	POSITIVE
+Hôm nay bạn bè thân thiện quá	POSITIVE
+Hôm nay âm nhạc du dương quá	POSITIVE
+Hôm nay bình thường thôi	NEUTRAL
+ổn định đấy	POSITIVE
+Có lẽ điên tiết	NEGATIVE
+Nhìn chung trò chơi bình thường quá	NEUTRAL
+Có lẽ công nghệ lỗi thời mà	NEGATIVE
+Có lẽ tương đối ổn quá	NEUTRAL
+Tôi nghĩ dịch vụ ổn quá	NEUTRAL
+Theo tôi thời tiết bình thường lắm	NEUTRAL
+Có lẽ cơ hội phát triển ít thôi	NEGATIVE
+Nhìn chung hài lòng đấy	POSITIVE
+Có lẽ thất vọng quá	NEGATIVE
+Có lẽ sức khỏe bình thường quá	NEUTRAL
+Hôm nay hài lòng quá	POSITIVE
+Có lẽ lương thưởng bình thường mà	NEUTRAL
+cơ hội phát triển bình thường lắm	NEUTRAL
+không tệ mà	NEUTRAL
+Theo tôi vui vẻ quá	POSITIVE
+Nhìn chung trải nghiệm bình thường	NEUTRAL
+Tôi nghĩ không tệ đấy	NEUTRAL
+tồi tệ quá	NEGATIVE
+Theo tôi không tốt	NEUTRAL
+Hôm nay sản phẩm bình thường đấy	NEUTRAL
+kiên nhẫn quá	POSITIVE
+Nhìn chung trò chơi bình thường đấy	NEUTRAL
+Hôm nay được đấy	NEUTRAL
+Tôi nghĩ giáo viên tận tâm thôi	POSITIVE
+Hôm nay công nghệ bình thường lắm	NEUTRAL
+Hôm nay bình thường lắm	NEUTRAL
+Theo tôi bạn bè bình thường đấy	NEUTRAL
+Có lẽ căng thẳng quá	NEGATIVE
+Nhìn chung thoải mái mà	POSITIVE
+Tôi nghĩ giao hàng nhanh quá	POSITIVE
+Hôm nay không tốt đấy	NEUTRAL
+Theo tôi hỗ trợ khách hàng tốt đấy	POSITIVE
+Theo tôi ổn định	POSITIVE
+Tôi nghĩ thú vị thôi	POSITIVE
+Theo tôi công nghệ bình thường thôi	NEUTRAL
+phúc lợi bình thường đấy	NEUTRAL
+Tôi nghĩ thời tiết bình thường lắm	NEUTRAL
+Hôm nay đào tạo bình thường quá	NEUTRAL
+Theo tôi không tệ quá	NEUTRAL
+Có lẽ tôi rất buồn	NEGATIVE
+Hôm nay gia đình hạnh phúc mà	POSITIVE
+Theo tôi bực bội quá	NEGATIVE
+nhân viên thân thiện lắm	POSITIVE
+Có lẽ không tốt quá	NEUTRAL
+Tôi nghĩ bất ổn thôi	NEGATIVE
+cơ hội phát triển ít đấy	NEGATIVE
+Nhìn chung bạn bè thân thiện lắm	POSITIVE
+không tốt đấy	NEUTRAL
+Có lẽ bực bội đấy	NEGATIVE
+cơ hội phát triển lắm	POSITIVE
+thời tiết bình thường đấy	NEUTRAL
+Hôm nay cơ hội phát triển bình thường lắm	NEUTRAL
+Hôm nay tích cực thôi	POSITIVE
+Hôm nay lo lắng	NEGATIVE
+Nhìn chung giá cả cao thôi	NEGATIVE
+Theo tôi khủng khiếp	NEGATIVE
+Nhìn chung cũng tạm	NEUTRAL
+Hôm nay bạn bè bình thường mà	NEUTRAL
+Có lẽ phúc lợi tốt thôi	POSITIVE
+tôi rất vui mà	POSITIVE
+Có lẽ mệt mỏi đấy	NEGATIVE
+Hôm nay cũng được đấy	NEUTRAL
+Hôm nay giá cả hợp lý mà	POSITIVE
+hào hứng đấy	POSITIVE
+du lịch tuyệt vời lắm	POSITIVE
+Theo tôi an toàn mà	POSITIVE
+Có lẽ cơ hội phát triển bình thường mà	NEUTRAL
+công việc ổn định mà	POSITIVE
+Tôi nghĩ đào tạo bình thường đấy	NEUTRAL
+bực bội đấy	NEGATIVE
+Có lẽ thời tiết xấu đấy	NEGATIVE
+Theo tôi tương đối ổn mà	NEUTRAL
+Nhìn chung sức khỏe bình thường lắm	NEUTRAL
+Nhìn chung bình yên mà	POSITIVE
+Theo tôi trò chơi nhàm	NEGATIVE
+Có lẽ bạn bè xa cách lắm	NEGATIVE
+chất lượng cao lắm	POSITIVE
+Tôi nghĩ tương đối ổn lắm	NEUTRAL
+Nhìn chung ưng ý đấy	POSITIVE
+hỗ trợ khách hàng bình thường lắm	NEUTRAL
+Theo tôi cũng tạm lắm	NEUTRAL
+Nhìn chung đào tạo kém đấy	NEGATIVE
+Hôm nay thời tiết đẹp quá	POSITIVE
+âm nhạc khó nghe mà	NEGATIVE
+Nhìn chung ứng dụng khó sử dụng	NEGATIVE
+Theo tôi sức khỏe kém lắm	NEGATIVE
+Hôm nay đào tạo bình thường đấy	NEUTRAL
+Có lẽ nhân viên thô lỗ quá	NEGATIVE
+tốt lành lắm	POSITIVE
+Nhìn chung tích cực quá	POSITIVE
+Tôi nghĩ dịch vụ bình thường quá	NEUTRAL
+Có lẽ thời tiết bình thường đấy	NEUTRAL
+Hôm nay được đấy mà	NEUTRAL
+Có lẽ trung lập lắm	NEUTRAL
+Có lẽ giáo viên nghiêm khắc	NEGATIVE
+Hôm nay sản phẩm sáng tạo đấy	POSITIVE
+Có lẽ tồi tệ đấy	NEGATIVE
+Nhìn chung bình yên quá	POSITIVE
+Theo tôi khủng khiếp mà	NEGATIVE
+Nhìn chung tiêu cực lắm	NEGATIVE
+Hôm nay an toàn mà	POSITIVE
+Hôm nay sách nhàm chán thôi	NEGATIVE
+Tôi nghĩ bất mãn lắm	NEGATIVE
+Theo tôi ưng ý thôi	POSITIVE
+Theo tôi trung lập quá	NEUTRAL
+Tôi nghĩ cũng tạm	NEUTRAL
+Có lẽ sức khỏe bình thường quá	NEUTRAL
+sức khỏe bình thường lắm	NEUTRAL
+Hôm nay không tốt thôi	NEUTRAL
+Hôm nay được đấy đấy	NEUTRAL
+cũng được mà	NEUTRAL
+Hôm nay bình yên mà	POSITIVE
+Tôi nghĩ sách bình thường thôi	NEUTRAL
+an toàn lắm	POSITIVE
+bất mãn quá	NEGATIVE
+Tôi nghĩ hoàn hảo	POSITIVE
+Hôm nay thú vị	POSITIVE
+Có lẽ không tốt lắm	NEUTRAL
+Tôi nghĩ sức khỏe kém	NEGATIVE
+đào tạo bình thường mà	NEUTRAL
+du lịch thất vọng	NEGATIVE
+Theo tôi môi trường làm việc bình thường đấy	NEUTRAL
+Hôm nay mệt mỏi mà	NEGATIVE
+Theo tôi du lịch thất vọng thôi	NEGATIVE
+Theo tôi đáng sợ lắm	NEGATIVE
+Hôm nay sản phẩm tệ mà	NEGATIVE
+Hôm nay ứng dụng dễ sử dụng	POSITIVE
+lương thưởng thấp	NEGATIVE
+Tôi nghĩ giao hàng chậm	NEGATIVE
+mệt mỏi đấy	NEGATIVE
+Nhìn chung không tệ	NEUTRAL
+bất mãn quá	NEGATIVE
+Có lẽ lạc quan đấy	POSITIVE
+Tôi nghĩ thời tiết xấu thôi	NEGATIVE
+được đấy quá	NEUTRAL
+Nhìn chung phúc lợi bình thường mà	NEUTRAL
+Tôi nghĩ cũng tạm thôi	NEUTRAL
+Có lẽ cũng được quá	NEUTRAL
+Tôi nghĩ sản phẩm lỗi lắm	NEGATIVE
+Nhìn chung lo lắng	NEGATIVE
+Hôm nay ổn định lắm	POSITIVE
+Hôm nay phim trung bình mà	NEUTRAL
+Tôi nghĩ cơ hội phát triển ít đấy	NEGATIVE
+Tôi nghĩ giá cả cao mà	NEGATIVE
+Hôm nay thời tiết bình thường mà	NEUTRAL
+Nhìn chung tinh tế đấy	POSITIVE
+Theo tôi hỗ trợ khách hàng tốt	POSITIVE
+môi trường làm việc bình thường quá	NEUTRAL
+phúc lợi bình thường thôi	NEUTRAL
+Hôm nay tinh tế mà	POSITIVE
+Nhìn chung thời tiết xấu lắm	NEGATIVE
+bình thường quá	NEUTRAL
+Tôi nghĩ tinh tế đấy	POSITIVE
+Tôi nghĩ tốt lành đấy	POSITIVE
+Có lẽ đáng sợ	NEGATIVE
+Theo tôi cơ hội phát triển thôi	POSITIVE
+Theo tôi đáng yêu lắm	POSITIVE
+Theo tôi hỗ trợ khách hàng bình thường lắm	NEUTRAL
+Có lẽ bạn bè bình thường mà	NEUTRAL
+Có lẽ thời tiết bình thường thôi	NEUTRAL
+Theo tôi kiên nhẫn mà	POSITIVE
+cũng tạm thôi	NEUTRAL
+cũng tạm	NEUTRAL
+Nhìn chung trò chơi thú vị	POSITIVE
+Nhìn chung an toàn mà	POSITIVE
+cáu kỉnh	NEGATIVE
+Hôm nay nhân viên thân thiện thôi	POSITIVE
+Tôi nghĩ vui vẻ lắm	POSITIVE
+gia đình hạnh phúc mà	POSITIVE
+Tôi nghĩ sức khỏe bình thường thôi	NEUTRAL
+Theo tôi gia đình bình thường	NEUTRAL
+phúc lợi kém đấy	NEGATIVE
+sức khỏe bình thường mà	NEUTRAL
+giáo viên nghiêm khắc thôi	NEGATIVE
+Hôm nay đáng yêu lắm	POSITIVE
+Nhìn chung xuất sắc thôi	POSITIVE
+Nhìn chung sức khỏe bình thường quá	NEUTRAL
+Hôm nay không tệ lắm	NEUTRAL
+Có lẽ an toàn mà	POSITIVE
+Có lẽ trò chơi bình thường mà	NEUTRAL
+Theo tôi dịch vụ tuyệt vời quá	POSITIVE
+Theo tôi thời tiết đẹp lắm	POSITIVE
+Nhìn chung khủng khiếp mà	NEGATIVE
+Có lẽ tiêu cực đấy	NEGATIVE
+Theo tôi văn hóa doanh nghiệp tiêu cực đấy	NEGATIVE
+Theo tôi đáng sợ đấy	NEGATIVE
+Tôi nghĩ phim trung bình thôi	NEUTRAL
+thiết kế bình thường mà	NEUTRAL
+Tôi nghĩ công việc khó khăn đấy	NEGATIVE
+Theo tôi trò chơi thú vị đấy	POSITIVE
+Theo tôi lạc quan thôi	POSITIVE
+Hôm nay tiêu cực đấy	NEGATIVE
+Theo tôi món ăn ngon lắm	POSITIVE
+Tôi nghĩ công việc ổn	NEUTRAL
+Theo tôi văn hóa doanh nghiệp tích cực đấy	POSITIVE
+môi trường làm việc bình thường lắm	NEUTRAL
+Có lẽ cũng tạm quá	NEUTRAL
+Tôi nghĩ tương đối ổn thôi	NEUTRAL
+Có lẽ tiêu cực lắm	NEGATIVE
+Theo tôi an toàn	POSITIVE
+Nhìn chung hỗ trợ khách hàng kém	NEGATIVE
+Hôm nay căng thẳng mà	NEGATIVE
+Theo tôi sản phẩm sáng tạo	POSITIVE
+Theo tôi ưng ý	POSITIVE
+Tôi nghĩ cũng được	NEUTRAL
+Hôm nay trung lập đấy	NEUTRAL
+Theo tôi sức khỏe kém thôi	NEGATIVE
+Hôm nay tiêu cực mà	NEGATIVE
+Nhìn chung phim hay lắm thôi	POSITIVE
+Nhìn chung dịch vụ nghiệp dư đấy	NEGATIVE
+Nhìn chung món ăn tạm đấy	NEUTRAL
+Tôi nghĩ ứng dụng khó sử dụng quá	NEGATIVE
+Hôm nay dịch vụ nghiệp dư lắm	NEGATIVE
+Theo tôi phim hay lắm quá	POSITIVE
+du lịch thất vọng đấy	NEGATIVE
+Hôm nay vui vẻ	POSITIVE
+Hôm nay không hài lòng lắm	NEGATIVE
+bình yên	POSITIVE
+Theo tôi môi trường làm việc xấu quá	NEGATIVE
+Theo tôi nguy hiểm	NEGATIVE
+Theo tôi vui vẻ quá	POSITIVE
+Có lẽ bình yên thôi	POSITIVE
+Có lẽ tích cực lắm	POSITIVE
+Hôm nay công nghệ bình thường mà	NEUTRAL
+công việc ổn định lắm	POSITIVE
+tôi rất buồn quá	NEGATIVE
+Nhìn chung không tệ đấy	NEUTRAL
+Nhìn chung du lịch bình thường quá	NEUTRAL
+Nhìn chung tương đối ổn thôi	NEUTRAL
+Nhìn chung phim trung bình đấy	NEUTRAL
+Nhìn chung cơ hội phát triển thôi	POSITIVE
+Nhìn chung thú vị đấy	POSITIVE
+Có lẽ bực bội	NEGATIVE
+Nhìn chung tốt lành quá	POSITIVE
+Có lẽ hạnh phúc lắm	POSITIVE
+Tôi nghĩ cơ hội phát triển thôi	POSITIVE
+Theo tôi tương đối ổn đấy	NEUTRAL
+Nhìn chung hỗ trợ khách hàng bình thường	NEUTRAL
+Có lẽ lương thưởng hấp dẫn đấy	POSITIVE
+Tôi nghĩ nhân viên bình thường quá	NEUTRAL
+kinh hoàng	NEGATIVE
+Theo tôi tích cực thôi	POSITIVE
+Theo tôi môi trường làm việc xấu thôi	NEGATIVE
+Hôm nay buồn bã	NEGATIVE
+Tôi nghĩ không tệ đấy	NEUTRAL
+thiết kế bình thường quá	NEUTRAL
+lương thưởng hấp dẫn	POSITIVE
+dịch vụ ổn lắm	NEUTRAL
+Nhìn chung hỗ trợ khách hàng tốt đấy	POSITIVE
+Theo tôi tích cực quá	POSITIVE
+Có lẽ cơ hội phát triển đấy	POSITIVE
+Theo tôi tiêu cực mà	NEGATIVE
+Nhìn chung trải nghiệm tệ thôi	NEGATIVE
+Nhìn chung sách nhàm chán lắm	NEGATIVE
+Hôm nay tốt lành thôi	POSITIVE
+môi trường làm việc tốt thôi	POSITIVE
+Có lẽ thú vị đấy	POSITIVE
+sức khỏe tốt thôi	POSITIVE
+Có lẽ tích cực đấy	POSITIVE
+Theo tôi cáu kỉnh	NEGATIVE
+Theo tôi hài lòng mà	POSITIVE
+Tôi nghĩ lương thưởng bình thường lắm	NEUTRAL
+Hôm nay hoàn hảo lắm	POSITIVE
+Tôi nghĩ phấn khích đấy	POSITIVE
+Hôm nay bất mãn thôi	NEGATIVE
+Nhìn chung sách hay đấy	POSITIVE
+Nhìn chung dịch vụ tuyệt vời lắm	POSITIVE
+Nhìn chung giáo viên tận tâm lắm	POSITIVE
+Theo tôi văn hóa doanh nghiệp tiêu cực thôi	NEGATIVE
+Nhìn chung đáng yêu quá	POSITIVE
+Hôm nay văn hóa doanh nghiệp tiêu cực đấy	NEGATIVE
+Tôi nghĩ phim dở đấy	NEGATIVE
+Có lẽ vui vẻ quá	POSITIVE
+Nhìn chung công nghệ tiên tiến quá	POSITIVE
+Có lẽ không tốt quá	NEUTRAL
+tồi tệ mà	NEGATIVE
+lương thưởng bình thường thôi	NEUTRAL
+Hôm nay dịch vụ nghiệp dư quá	NEGATIVE
+Tôi nghĩ ứng dụng bình thường mà	NEUTRAL
+Nhìn chung tích cực quá	POSITIVE
+Có lẽ phúc lợi kém thôi	NEGATIVE
+an toàn mà	POSITIVE
+bạn bè thân thiện thôi	POSITIVE
+Theo tôi thiết kế bình thường mà	NEUTRAL
+trò chơi thú vị quá	POSITIVE
+Theo tôi thiết kế bình thường thôi	NEUTRAL
+Hôm nay phúc lợi kém mà	NEGATIVE
+Theo tôi bất ổn thôi	NEGATIVE
+Có lẽ trung lập mà	NEUTRAL
+Theo tôi cũng được quá	NEUTRAL
+Có lẽ tương đối ổn lắm	NEUTRAL
+Theo tôi thú vị mà	POSITIVE
+Nhìn chung văn hóa doanh nghiệp tiêu cực	NEGATIVE
+Có lẽ cơ hội phát triển thôi	POSITIVE
+Hôm nay gia đình bất hòa thôi	NEGATIVE
+Có lẽ cáu kỉnh quá	NEGATIVE
+Có lẽ dịch vụ chuyên nghiệp mà	POSITIVE
+Nhìn chung giao hàng nhanh	POSITIVE
+Tôi nghĩ trung lập quá	NEUTRAL
+Có lẽ công nghệ lỗi thời lắm	NEGATIVE
+Nhìn chung phim trung bình	NEUTRAL
+Theo tôi hoàn hảo lắm	POSITIVE
+Có lẽ công nghệ bình thường	NEUTRAL
+Nhìn chung công nghệ bình thường mà	NEUTRAL
+sức khỏe bình thường mà	NEUTRAL
+Có lẽ thiết kế xấu quá	NEGATIVE
+Tôi nghĩ sản phẩm tệ	NEGATIVE
+Tôi nghĩ du lịch tuyệt vời thôi	POSITIVE
+Tôi nghĩ hỗ trợ khách hàng bình thường thôi	NEUTRAL
+Tôi nghĩ bất mãn thôi	NEGATIVE
+Có lẽ cũng được quá	NEUTRAL
+thú vị đấy	POSITIVE
+Tôi nghĩ sức khỏe tốt quá	POSITIVE
+Nhìn chung hào hứng lắm	POSITIVE
+Nhìn chung cáu kỉnh đấy	NEGATIVE
+Có lẽ trải nghiệm tệ đấy	NEGATIVE
+Có lẽ gia đình bình thường quá	NEUTRAL
+trung lập lắm	NEUTRAL
+Tôi nghĩ tôi rất buồn	NEGATIVE
+Theo tôi trải nghiệm tuyệt vời	POSITIVE
+Có lẽ âm nhạc khó nghe mà	NEGATIVE
+Tôi nghĩ tương đối ổn lắm	NEUTRAL
+Nhìn chung chán nản đấy	NEGATIVE
+sản phẩm lỗi đấy	NEGATIVE
+Tôi nghĩ sản phẩm sáng tạo mà	POSITIVE
+Hôm nay giao hàng nhanh đấy	POSITIVE
+hài lòng với sản phẩm đấy	POSITIVE
+Theo tôi âm nhạc khó nghe	NEGATIVE
+Theo tôi thiết kế bình thường lắm	NEUTRAL
+Tôi nghĩ sách hay đấy	POSITIVE
+Theo tôi văn hóa doanh nghiệp tiêu cực lắm	NEGATIVE
+Theo tôi tiêu cực	NEGATIVE
+Theo tôi phim trung bình quá	NEUTRAL
+Theo tôi sản phẩm lỗi quá	NEGATIVE
+Tôi nghĩ sức khỏe tốt thôi	POSITIVE
+tốt lành lắm	POSITIVE
+Có lẽ tốt lành quá	POSITIVE
+Có lẽ phim hay lắm đấy	POSITIVE
+Tôi nghĩ chán nản mà	NEGATIVE
+Nhìn chung hoàn hảo thôi	POSITIVE
+Theo tôi được đấy đấy	NEUTRAL
+Hôm nay món ăn ngon mà	POSITIVE
+Nhìn chung thiết kế đẹp đấy	POSITIVE
+Nhìn chung cũng được mà	NEUTRAL
+Hôm nay du lịch bình thường quá	NEUTRAL
+Hôm nay tự hào	POSITIVE
+Hôm nay không tốt thôi	NEUTRAL
+Theo tôi hài lòng	POSITIVE
+Tôi nghĩ tích cực	POSITIVE
+Có lẽ đáng sợ quá	NEGATIVE
+Hôm nay hỗ trợ khách hàng kém đấy	NEGATIVE
+Tôi nghĩ du lịch bình thường mà	NEUTRAL
+Theo tôi hoàn hảo đấy	POSITIVE
+Nhìn chung văn hóa doanh nghiệp tiêu cực	NEGATIVE
+Nhìn chung giá cả cao đấy	NEGATIVE
+hoàn hảo	POSITIVE
+Nhìn chung không tốt quá	NEUTRAL
+Theo tôi không hài lòng thôi	NEGATIVE
+Theo tôi giáo viên bình thường thôi	NEUTRAL
+Hôm nay chất lượng cao mà	POSITIVE
+Nhìn chung hài lòng với sản phẩm mà	POSITIVE
+bạn bè bình thường quá	NEUTRAL
+Tôi nghĩ tự hào mà	POSITIVE
+Nhìn chung lương thưởng bình thường mà	NEUTRAL
+Nhìn chung mệt mỏi thôi	NEGATIVE
+Có lẽ thoải mái đấy	POSITIVE
+sách nhàm chán quá	NEGATIVE
+sản phẩm bình thường thôi	NEUTRAL
+Có lẽ khinh bỉ	NEGATIVE
+hài lòng đấy	POSITIVE
+Hôm nay lạc quan lắm	POSITIVE
+Nhìn chung an toàn	POSITIVE
+Hôm nay trải nghiệm tệ mà	NEGATIVE
+hài lòng thôi	POSITIVE
+Nhìn chung môi trường làm việc tốt lắm	POSITIVE
+Nhìn chung trung lập quá	NEUTRAL
+Có lẽ môi trường làm việc xấu quá	NEGATIVE
+Có lẽ âm nhạc bình thường đấy	NEUTRAL
+Hôm nay giao hàng chậm mà	NEGATIVE
+phim hay lắm thôi	POSITIVE
+Tôi nghĩ ổn định đấy	POSITIVE
+Nhìn chung dịch vụ bình thường lắm	NEUTRAL
+Nhìn chung giáo viên tận tâm đấy	POSITIVE
+Nhìn chung được đấy thôi	NEUTRAL
+đào tạo kém mà	NEGATIVE
+Tôi nghĩ tôi rất vui đấy	POSITIVE
+Nhìn chung tồi tệ	NEGATIVE
+Nhìn chung chán nản lắm	NEGATIVE
+Theo tôi không tốt	NEUTRAL
+Tôi nghĩ chất lượng cao	POSITIVE
+Có lẽ môi trường làm việc xấu thôi	NEGATIVE
+Theo tôi khủng khiếp	NEGATIVE
+Theo tôi hỗ trợ khách hàng kém lắm	NEGATIVE
+Hôm nay tức tối quá	NEGATIVE
+Theo tôi cơ hội phát triển ít thôi	NEGATIVE
+không tốt đấy	NEUTRAL
+Nhìn chung bạn bè xa cách quá	NEGATIVE
+Có lẽ thiết kế xấu mà	NEGATIVE
+Có lẽ khủng khiếp lắm	NEGATIVE
+Tôi nghĩ ưng ý lắm	POSITIVE
+Tôi nghĩ khinh bỉ thôi	NEGATIVE
+bạn bè xa cách quá	NEGATIVE
+Hôm nay cũng được mà	NEUTRAL
