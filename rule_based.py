@@ -277,6 +277,22 @@ class RuleBasedSentiment:
         pos_count = 0
         neg_count = 0
 
+        # Heuristic: detect patterns like "X cũng Y" (or unaccented "cung") and treat
+        # them as mixed/ambiguous when both sides carry sentiment. This captures
+        # hedged constructions ("Hôm nay không vui cũng không buồn", etc.) and
+        # lets the fusion layer prefer NEUTRAL for these templates.
+        import re
+        if re.search(r"\b(cũng|cung)\b", text_lower):
+            parts = re.split(r"\b(?:cũng|cung)\b", text_lower)
+            if len(parts) >= 2:
+                left = parts[0].strip()
+                right = parts[1].strip()
+                left_score = self._clause_score(left)
+                right_score = self._clause_score(right)
+                # If either clause has a non-zero lexicon score, consider it mixed
+                if abs(left_score) > 0 or abs(right_score) > 0:
+                    return True
+
         # Phrase-aware scan: prefer longest matches and skip already-matched words to avoid
         # double-counting overlapping phrases (e.g., "bất ổn" and "ổn").
         i = 0

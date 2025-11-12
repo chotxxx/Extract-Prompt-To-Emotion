@@ -1,0 +1,100 @@
+Hôm nay vui cũng vui	NEUTRAL
+Hôm nay vui cũng không vui	NEUTRAL
+Hôm nay không vui cũng vui	NEUTRAL
+Hôm nay không vui cũng không vui	NEUTRAL
+Hôm nay vui cũng buồn	NEUTRAL
+Hôm nay vui cũng không buồn	NEUTRAL
+Hôm nay không vui cũng buồn	NEUTRAL
+Hôm nay không vui cũng không buồn	NEUTRAL
+Hôm nay vui cũng ổn	NEUTRAL
+Hôm nay vui cũng không ổn	NEUTRAL
+Hôm nay không vui cũng ổn	NEUTRAL
+Hôm nay không vui cũng không ổn	NEUTRAL
+Hôm nay vui cũng tốt	NEUTRAL
+Hôm nay vui cũng không tốt	NEUTRAL
+Hôm nay không vui cũng tốt	NEUTRAL
+Hôm nay không vui cũng không tốt	NEUTRAL
+Hôm nay vui cũng tệ	NEUTRAL
+Hôm nay vui cũng không tệ	NEUTRAL
+Hôm nay không vui cũng tệ	NEUTRAL
+Hôm nay không vui cũng không tệ	NEUTRAL
+Hôm nay vui cũng hài lòng	NEUTRAL
+Hôm nay vui cũng không hài lòng	NEUTRAL
+Hôm nay không vui cũng hài lòng	NEUTRAL
+Hôm nay không vui cũng không hài lòng	NEUTRAL
+Hôm nay vui cũng thất vọng	NEUTRAL
+Hôm nay vui cũng không thất vọng	NEUTRAL
+Hôm nay không vui cũng thất vọng	NEUTRAL
+Hôm nay không vui cũng không thất vọng	NEUTRAL
+Hôm nay vui cũng khó chịu	NEUTRAL
+Hôm nay vui cũng không khó chịu	NEUTRAL
+Hôm nay không vui cũng khó chịu	NEUTRAL
+Hôm nay không vui cũng không khó chịu	NEUTRAL
+Hôm nay vui cũng bình thường	NEUTRAL
+Hôm nay vui cũng không bình thường	NEUTRAL
+Hôm nay không vui cũng bình thường	NEUTRAL
+Hôm nay không vui cũng không bình thường	NEUTRAL
+Hôm nay vui cũng hạnh phúc	NEUTRAL
+Hôm nay vui cũng không hạnh phúc	NEUTRAL
+Hôm nay không vui cũng hạnh phúc	NEUTRAL
+Hôm nay không vui cũng không hạnh phúc	NEUTRAL
+Hôm nay buồn cũng vui	NEUTRAL
+Hôm nay buồn cũng không vui	NEUTRAL
+Hôm nay không buồn cũng vui	NEUTRAL
+Hôm nay không buồn cũng không vui	NEUTRAL
+Hôm nay buồn cũng buồn	NEUTRAL
+Hôm nay buồn cũng không buồn	NEUTRAL
+Hôm nay không buồn cũng buồn	NEUTRAL
+Hôm nay không buồn cũng không buồn	NEUTRAL
+Hôm nay buồn cũng ổn	NEUTRAL
+Hôm nay buồn cũng không ổn	NEUTRAL
+Hôm nay không buồn cũng ổn	NEUTRAL
+Hôm nay không buồn cũng không ổn	NEUTRAL
+Hôm nay buồn cũng tốt	NEUTRAL
+Hôm nay buồn cũng không tốt	NEUTRAL
+Hôm nay không buồn cũng tốt	NEUTRAL
+Hôm nay không buồn cũng không tốt	NEUTRAL
+Hôm nay buồn cũng tệ	NEUTRAL
+Hôm nay buồn cũng không tệ	NEUTRAL
+Hôm nay không buồn cũng tệ	NEUTRAL
+Hôm nay không buồn cũng không tệ	NEUTRAL
+Hôm nay buồn cũng hài lòng	NEUTRAL
+Hôm nay buồn cũng không hài lòng	NEUTRAL
+Hôm nay không buồn cũng hài lòng	NEUTRAL
+Hôm nay không buồn cũng không hài lòng	NEUTRAL
+Hôm nay buồn cũng thất vọng	NEUTRAL
+Hôm nay buồn cũng không thất vọng	NEUTRAL
+Hôm nay không buồn cũng thất vọng	NEUTRAL
+Hôm nay không buồn cũng không thất vọng	NEUTRAL
+Hôm nay buồn cũng khó chịu	NEUTRAL
+Hôm nay buồn cũng không khó chịu	NEUTRAL
+Hôm nay không buồn cũng khó chịu	NEUTRAL
+Hôm nay không buồn cũng không khó chịu	NEUTRAL
+Hôm nay buồn cũng bình thường	NEUTRAL
+Hôm nay buồn cũng không bình thường	NEUTRAL
+Hôm nay không buồn cũng bình thường	NEUTRAL
+Hôm nay không buồn cũng không bình thường	NEUTRAL
+Hôm nay buồn cũng hạnh phúc	NEUTRAL
+Hôm nay buồn cũng không hạnh phúc	NEUTRAL
+Hôm nay không buồn cũng hạnh phúc	NEUTRAL
+Hôm nay không buồn cũng không hạnh phúc	NEUTRAL
+Hôm nay ổn cũng vui	NEUTRAL
+Hôm nay ổn cũng không vui	NEUTRAL
+Hôm nay không ổn cũng vui	NEUTRAL
+Hôm nay không ổn cũng không vui	NEUTRAL
+Hôm nay ổn cũng buồn	NEUTRAL
+Hôm nay ổn cũng không buồn	NEUTRAL
+Hôm nay không ổn cũng buồn	NEUTRAL
+Hôm nay không ổn cũng không buồn	NEUTRAL
+Hôm nay ổn cũng ổn	NEUTRAL
+Hôm nay ổn cũng không ổn	NEUTRAL
+Hôm nay không ổn cũng ổn	NEUTRAL
+Hôm nay không ổn cũng không ổn	NEUTRAL
+Hôm nay ổn cũng tốt	NEUTRAL
+Hôm nay ổn cũng không tốt	NEUTRAL
+Hôm nay không ổn cũng tốt	NEUTRAL
+Hôm nay không ổn cũng không tốt	NEUTRAL
+Hôm nay ổn cũng tệ	NEUTRAL
+Hôm nay ổn cũng không tệ	NEUTRAL
+Hôm nay không ổn cũng tệ	NEUTRAL
+Hôm nay không ổn cũng không tệ	NEUTRAL
