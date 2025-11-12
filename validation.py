@@ -107,6 +107,9 @@ def validate_input(text):
 
     # Check for Vietnamese content
     if not is_vietnamese_text(text) and len(text) > 10:
-        return False, "⚠️ Không phát hiện nội dung tiếng Việt. Vui lòng nhập văn bản bằng tiếng Việt."
+        # Return as valid but surface a non-blocking warning so callers can
+        # proceed with classification while informing the user the text may
+        # not be Vietnamese or may be missing diacritics.
+        return True, "⚠️ Không chắc chắn đây là tiếng Việt — kết quả có thể không chính xác. Nếu văn bản là tiếng Việt không dấu, bạn có thể tiếp tục."
 
     return True, "✅ Văn bản hợp lệ!"
