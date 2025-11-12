@@ -218,6 +218,16 @@ tab1, tab2 = st.tabs(["Phân loại Cảm xúc", "Lịch sử Phân loại"])
 with tab1:
     st.header("Phân loại Cảm xúc")
     text_input = st.text_area("Nhập câu tiếng Việt:", height=100)
+    
+    # Confidence threshold slider
+    confidence_threshold = st.slider(
+        "Ngưỡng độ tin cậy cho kết quả mơ hồ:",
+        min_value=0.0,
+        max_value=1.0,
+        value=0.7,
+        step=0.05,
+        help="Nếu độ tin cậy dưới ngưỡng này, hệ thống sẽ cảnh báo kết quả có thể mơ hồ."
+    )
 
     if st.button("Phân loại"):
         if text_input.strip():
@@ -240,11 +250,23 @@ with tab1:
                     final_label, final_conf = fusion.fuse(l_phobert, c_phobert, s_rule)
 
                     # Display results
-                    st.success(f"Cảm xúc: {final_label}")
+                    if final_conf < confidence_threshold:
+                        st.warning(f"⚠️ Cảm xúc: {final_label} (Có thể mơ hồ - Độ tin cậy thấp)")
+                        st.info("💡 Gợi ý: Kết quả này có độ tin cậy thấp. Hãy xem xét ngữ cảnh hoặc nhập thêm chi tiết.")
+                    else:
+                        st.success(f"✅ Cảm xúc: {final_label}")
+                    
                     st.info(f"Độ tin cậy tổng hợp: {final_conf:.2f}")
-
-                    # Save to DB
-                    db.insert_history(text_input, processed_text, final_label, final_conf)
+                    
+                    # Additional details
+                    with st.expander("Chi tiết phân tích"):
+                        col1, col2, col3 = st.columns(3)
+                        with col1:
+                            st.metric("PhoBERT", f"{l_phobert}", f"{c_phobert:.2f}")
+                        with col2:
+                            st.metric("Rule-based", f"{rule_based.get_label(s_rule)}", f"{s_rule:.2f}")
+                        with col3:
+                            st.metric("Fusion", final_label, f"{final_conf:.2f}")
         else:
             st.error("❌ Vui lòng nhập văn bản!")
 

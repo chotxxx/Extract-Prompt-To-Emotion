@@ -1,5 +1,5 @@
 class ConditionalFusion:
-    def __init__(self, t_high=0.85, t_low=0.50, theta_rule=2.0, w_phobert=0.15, w_rule=0.85):
+    def __init__(self, t_high=0.97, t_low=0.50, theta_rule=0.8, w_phobert=0.10, w_rule=0.90):
         # lower DL weight and increase rule weight to favor rule-based neutrality in conflicts
         self.t_high = t_high
         self.t_low = t_low
@@ -20,9 +20,6 @@ class ConditionalFusion:
         if mixed_flag:
             return "NEUTRAL", 0.90
 
-        # If rule indicates neutral context (short descriptive/question/filler) and rule score is weak, force NEUTRAL
-        if neutral_flag and abs(s_rule) < 1.0:
-            return "NEUTRAL", 0.85
         # Special veto for very negative rule-based (toxic words)
         if s_rule <= -4.0:
             return "NEGATIVE", abs(s_rule) / 5.0
@@ -32,16 +29,24 @@ class ConditionalFusion:
             label = "POSITIVE" if s_rule > 0 else "NEGATIVE"
             return label, abs(s_rule) / 5.0  # Normalize confidence
 
-        # Case 0: Neutral priority for low rule scores and medium PhoBERT confidence
-        if abs(s_rule) < 1.0 and 0.60 <= c_phobert < self.t_high:
-            return "NEUTRAL", 0.7
+        # (no early neutral override here) - fall through to normal cases
 
-        # Case I: High DL Confidence
+        # Case I: High DL Confidence - prioritize over neutral context
         if c_phobert >= self.t_high:
             return l_phobert, c_phobert  # Use PhoBERT
 
+        # If rule indicates neutral context (short descriptive/question/filler) and rule score is very weak, force NEUTRAL
+        if neutral_flag and abs(s_rule) < 0.05 and c_phobert < self.t_high:
+            return "NEUTRAL", 0.85
+
         # Case III: Conflict Resolution with Weighted Combination
         if self.t_low <= c_phobert < self.t_high:
+            # If neutral context and PhoBERT not very confident, prefer NEUTRAL
+            if neutral_flag and c_phobert < 0.9:
+                return "NEUTRAL", 0.8
+            # Check for high disagreement (ambiguity indicator)
+            if abs(s_rule) < 0.3 and c_phobert < 0.85:
+                return "NEUTRAL", 0.6  # Ambiguous case
             # Compute scores for each label
             scores = {}
             for label in ["POSITIVE", "NEGATIVE", "NEUTRAL"]:
