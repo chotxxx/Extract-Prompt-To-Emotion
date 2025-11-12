@@ -267,6 +267,12 @@ with tab1:
                             st.metric("Rule-based", f"{rule_based.get_label(s_rule)}", f"{s_rule:.2f}")
                         with col3:
                             st.metric("Fusion", final_label, f"{final_conf:.2f}")
+                    # Save to history DB so UI/history features become available
+                    try:
+                        # Insert original input, processed text, final label and confidence
+                        db.insert_history(text_input, processed_text, final_label, float(final_conf))
+                    except Exception as e:
+                        st.error(f"Lỗi khi lưu lịch sử: {e}")
         else:
             st.error("❌ Vui lòng nhập văn bản!")
 
@@ -295,14 +301,22 @@ with tab2:
             except Exception as e:
                 st.error(f"Lỗi khi xóa: {e}")
         
-        st.dataframe(df)
-        
-        # Export section
+        # Search/filter history
+        search_term = st.text_input("Tìm kiếm trong lịch sử (Input / Label / Processed):")
+        if search_term and not df.empty:
+            mask = df["Input"].str.contains(search_term, case=False, na=False) | df["Processed"].str.contains(search_term, case=False, na=False) | df["Label"].str.contains(search_term, case=False, na=False)
+            filtered_df = df[mask]
+        else:
+            filtered_df = df
+
+        st.dataframe(filtered_df)
+
+        # Export section (only show when there is data)
         st.subheader("Xuất dữ liệu")
         col1, col2, col3, col4 = st.columns(4)
         
         with col1:
-            csv_data = export_to_csv(df)
+            csv_data = export_to_csv(filtered_df)
             st.download_button(
                 label="📄 Xuất CSV",
                 data=csv_data,
@@ -312,7 +326,7 @@ with tab2:
             )
         
         with col2:
-            json_data = export_to_json(df)
+            json_data = export_to_json(filtered_df)
             st.download_button(
                 label="📋 Xuất JSON",
                 data=json_data,
@@ -322,7 +336,7 @@ with tab2:
             )
         
         with col3:
-            html_data = export_to_html(df)
+            html_data = export_to_html(filtered_df)
             st.download_button(
                 label="📕 Xuất HTML",
                 data=html_data,
@@ -332,7 +346,7 @@ with tab2:
             )
         
         with col4:
-            ics_data = export_to_ics(df)
+            ics_data = export_to_ics(filtered_df)
             st.download_button(
                 label="📅 Xuất ICS",
                 data=ics_data,
