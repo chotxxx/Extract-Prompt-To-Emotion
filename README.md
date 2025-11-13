@@ -109,10 +109,14 @@ Extract-Prompt-To-Emotion/
 
 ## 📄 License
 
-This project is open source. Feel free to use and modify.
+This project is open source. Feel free to use and modify.    
+
 
 ## 🙏 Acknowledgments
 
 - [PhoBERT](https://github.com/VinAIResearch/PhoBERT) by VinAI Research
 - [Underthesea](https://github.com/undertheseanlp/underthesea) Vietnamese NLP toolkit
 - [Streamlit](https://streamlit.io/) for the amazing web app framework
+
+  ## 🤝 Collaborator
+Special thanks: chotxx - Vu Quoc Bao
