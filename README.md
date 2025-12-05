@@ -117,6 +117,3 @@ This project is open source. Feel free to use and modify.
 - [PhoBERT](https://github.com/VinAIResearch/PhoBERT) by VinAI Research
 - [Underthesea](https://github.com/undertheseanlp/underthesea) Vietnamese NLP toolkit
 - [Streamlit](https://streamlit.io/) for the amazing web app framework
-
-  ## 🤝 Collaborator
-Special thanks: chotxx - Vu Quoc Bao
