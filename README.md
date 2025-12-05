@@ -109,7 +109,9 @@ Extract-Prompt-To-Emotion/
 
 ## 📄 License
 
-This project is open source. Feel free to use and modify.    
+This project is open source. Feel free to use.
+
+
 
 
 ## 🙏 Acknowledgments
