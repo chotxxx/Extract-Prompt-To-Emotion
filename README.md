@@ -16,7 +16,7 @@ A powerful hybrid sentiment analysis system for Vietnamese text using PhoBERT + 
 ### Local Development
 ```bash
 # Clone repository
-git clone https://github.com/d0ngle8k/Extract-Prompt-To-Emotion.git
+git clone https://github.com/chotxxx/Extract-Prompt-To-Emotion.git
 cd Extract-Prompt-To-Emotion
 
 # Create virtual environment
